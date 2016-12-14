@@ -1,0 +1,152 @@
+/*CSS reset settings here*/
+/* http://meyerweb.com/eric/tools/css/reset/
+  v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+body {
+ line-height: 1;
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+/*Wrapper Styles*/
+
+#wrapper{
+ width: 1300px;
+ height: 725px;
+ background: #141E30; /* fallback for old browsers */
+ background: -webkit-linear-gradient(to left, #141E30 , #243B55); /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to left, #141E30 , #243B55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ margin: 0px auto;
+ padding: 1px;
+}
+
+/*Header Styles*/
+
+#header{
+  height: 90px;
+  background: #F00000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #F00000 , #DC281E); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #F00000 , #DC281E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: 8px 10px 8px 10px;
+  border-radius: 15px;
+  box-shadow: 5px 6px 5px #ab6969;
+}
+
+#header h1 {
+  font-size: 40px;
+  padding: 25px 0px 0px 15px;
+  color: #d6a5a5;
+}
+
+/*Nav Styles*/
+
+nav {
+  height: 300px;
+  width: 200px;
+  background-color: rgba(0, 128, 128, 0.37);;
+  margin: 20px 13px;
+  border-radius: 15px;
+  /*box-shadow: 5px 6px 5px rgba(63, 71, 115, 0.71);*/
+}
+
+nav li {
+  padding: 5px 0px 0px 20px;
+  margin: 5px 0px 6px 5px;
+  color: #0affff;
+  text-decoration: underline;
+}
+
+/*Main Content*/
+
+.main-content {
+  border-radius: 15px;
+  height: 475px;
+  width: 1030px;
+  padding: 15px 0px 0px 15px;
+  margin: -320px 0px 15px 239px;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.main-content h1, p {
+  color: white;
+}
+
+.main-content h1 {
+  font-size: 25px;
+}
+
+.main-content li {
+  padding: 25px 0px 0px 0px;
+  color: white;
+  margin: 0px 0px 0px 15px;
+}
+
+.main-content a {
+  color: #0affff;
+}
+
+.main-content b {
+  color: #664eab;
+}
+
+/*Footer Styles*/
+
+footer {
+  height: 75px;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 1280px;
+  background-color: rgba(158, 158, 158, 0.52);
+  border-radius: 15px;
+}
+
+footer p{
+  padding: 27px 0px 0px 15px;
+  font-size: 20px;
+}
+
+footer p a {
+  color: #0affff;
+}
