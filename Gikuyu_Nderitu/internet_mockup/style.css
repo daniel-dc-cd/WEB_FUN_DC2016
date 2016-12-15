@@ -51,19 +51,13 @@ img{
 	width: 813px;
 	margin: 0 auto;
 	font-family: sans-serif;
-	/*background: darkgray;*/
 	padding: 7px 94px;
-}
-
-header{
-	/*background: white;*/
 }
 
 #title{
 	width: 317px;
 	display: flex;
 	justify-content: flex-start;;
-	/*background: transparent;*/
 }
 
 #title img{
@@ -103,7 +97,6 @@ section{
 aside{
 	width: 183px;
 	vertical-align: top;
-	/*background: yellow;*/
 }
 
 aside > *{
@@ -164,7 +157,6 @@ aside a{
 
 main{
 	width: 580px;
-	/*background: red;*/
 	padding: 0 10px;
 	font-size: 14px;
 }
@@ -174,13 +166,8 @@ main > *{
 }
 
 main > article:nth-of-type(1){
-	/*background: gold;*/
 	display: flex;
 	justify-content: space-between;
-}
-
-main > article:nth-of-type(1) figure:nth-of-type(1){
-	/*background: lightblue;*/
 }
 
 main > article:nth-of-type(1) figure:nth-of-type(1) > *{
@@ -189,10 +176,6 @@ main > article:nth-of-type(1) figure:nth-of-type(1) > *{
 
 main > article:nth-of-type(1) figure:nth-of-type(1) > img{
 	max-height: 1.5em;
-}
-
-main > article:nth-of-type(1) figure:nth-of-type(2){
-	/*background: green;*/
 }
 
 main > article:nth-of-type(1) figure:nth-of-type(2) > *{
@@ -238,7 +221,6 @@ main > figure > figcaption{
 	text-align: center;
 	width: 226px;
 	font: 400 1px sans-serif;
-	/*display: none;*/
 	transition: font-size 500ms linear;
 }
 main > figure > img:hover ~ figcaption{
