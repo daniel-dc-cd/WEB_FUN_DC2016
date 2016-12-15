@@ -1,0 +1,20 @@
+cmd
+cd desktop
+md test
+cd test
+copy NUL index.html
+copy NUL styles.css
+copy NUL commands.txt
+copy index.html index_2.html
+cd..
+cd destination
+cd test
+move index_2.html c:\Users\thaig\Desktop\destination
+del styles.css
+dir
+cd..
+cd destination
+dir
+cd..
+del destination
+rd destination
