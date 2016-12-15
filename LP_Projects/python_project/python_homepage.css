@@ -3,9 +3,9 @@
     margin: 0px;
     font-family: arial, "helvetica neue", sans-serif;
 }
-*:hover{
+/**:hover{
     outline: 1px dashed red;
-}
+}*/
 
 #wrapper{
     width:970px;
@@ -40,7 +40,7 @@ img{
     height: 100%;
 }
 
-#special{
+.special{
     color: yellow;
     text-decoration: underline;
 }
@@ -182,7 +182,6 @@ input{
 #gettingstarted{
     text-align:center;
     display:inline-block;
-    margin-left: 100px;
     width: 300px;
     padding: 10px 40px;
     border-top-color: #2b5b84;
@@ -201,7 +200,7 @@ input{
     text-align: center;
     display: inline-block;
     width: 300px;
-    padding: 10px 40px ;
+    padding: 10px 40px;
     border-top-color: #2b5b84;
     border-top-style: solid;
     border-top-width:thick;
