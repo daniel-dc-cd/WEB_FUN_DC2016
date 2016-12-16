@@ -1,0 +1,354 @@
+
+#container{
+width:970px;
+height:1140px;
+background-color: rgba(0, 0, 0, 0.9);
+font-weight: lighter;
+font-style: normal;
+font-family: sans-serif;
+margin-left: auto;
+margin-right: auto;
+}
+
+#header{
+padding-top: 20px;
+padding-left: 20px;
+padding-bottom: 20px;
+}
+
+#headert1{
+margin-left: 555px;
+position: relative;
+top: -40px;
+color: aliceblue;
+font-style: oblique;
+font-size: 11px;
+}
+
+#nav {
+padding-left: 35px;
+}
+
+#nav li {
+font-size: 12px;
+display: inline;
+padding-right: 20px;
+padding-left: 20px;
+color: aliceblue;
+border-right: 0.5px solid #535653;
+}
+
+#nav-menu{
+position: relative;
+left: 5px;
+width: 955px;
+height: auto;
+border: 1px solid;
+background-color: rgba(191, 174, 174, 0.14);
+}
+
+div#mainimg{
+position: relative;
+left: 5px;
+}
+
+#con{
+padding-right: 170px;
+border-right: .5px solid #575857;
+}
+
+#carousel{
+height:120px;
+position: relative;
+left: 5px;
+background-color: rgba(43, 44, 45, 0);
+}
+
+#car-1{
+width: 240px;
+padding-top: 0px;
+padding-left: 40px;
+}
+
+img#icon-1{
+position: relative;
+top:40px;
+}
+
+h3.headcon{
+position: relative;
+left: 60px;
+bottom: 20px;
+color: orangered;
+}
+
+p.des1{
+position: relative;
+left: 60px;
+bottom: 35px;
+text-align: left;
+font-size: 12px;
+width: 165px;
+color:aliceblue;
+}
+
+#car-2{
+position: relative;
+bottom: 80px;
+left: 260px;
+top: -155px;
+width: 130px;
+padding-top: 0px;
+padding-left: 30px;
+}
+
+img#icon-2{
+position: relative;
+top:40px;
+}
+
+h3.headcon2{
+position: relative;
+left: 60px;
+bottom: 20px;
+color: orangered;
+}
+
+p.des2{
+position: relative;
+left: 60px;
+bottom: 35px;
+text-align: left;
+font-size: 12px;
+width: 130px;
+color:aliceblue;
+}
+
+#car-3{
+position: relative;
+bottom: 0px;
+left: 445px;
+top: -310px;
+width: 100px;
+padding-top: 0px;
+padding-left: 30px;
+}
+
+img#icon-3{
+position: relative;
+top:40px;
+}
+
+h3.headcon3{
+position: relative;
+left: 60px;
+bottom: 20px;
+color: orangered;
+}
+
+p.des3{
+position: relative;
+left: 60px;
+bottom: 35px;
+text-align: left;
+font-size: 12px;
+width: 125px;
+color:aliceblue;
+}
+
+#car-4{
+position: relative;
+bottom: 0px;
+left: 655px;
+top: -470px;
+width: 200px;
+padding-top: 0px;
+padding-left: 30px;
+}
+
+img#icon-4{
+position: relative;
+top:40px;
+}
+
+h3.headcon4{
+position: relative;
+left: 60px;
+bottom: 20px;
+color: orangered;
+}
+
+p.des4{
+position: relative;
+left: 60px;
+bottom: 35px;
+text-align: left;
+font-size: 12px;
+width: 195px;
+color:aliceblue;
+}
+
+div#description{
+background-color: rgba(12, 12, 12, 0.39);
+position: relative;
+top: 5px;
+color: aliceblue;
+left: 10px
+right:15px;
+}
+
+div#description-1{
+position: relative;
+top: 30px;
+left: 40px;
+width: 650px;
+}
+
+h2{
+font-weight: lighter;
+}
+
+#despa{
+position: relative;
+top: -20px;
+font-size: 13px;
+}
+
+div#description-2{
+position: relative;
+top: -60px;
+left: 820px;
+}
+
+button {
+width: 100px;
+height: 40px;
+background-color: rgb(204, 83, 45);
+border-radius: 10px;
+color: whitesmoke;
+font-size: 14px;
+}
+
+div#footcarousel{
+position: relative;
+top: 35px;
+left: 45px;
+}
+
+span#port{
+color: aliceblue;
+font-size: 18px;
+position: relative;
+font-weight: bold;
+}
+
+span#projects{
+color: orangered;
+position: relative;
+left: 700px;
+font-size: 10px;
+font-style: oblique;
+font-weight: bold;
+}
+
+div#footcarousel1{
+position: relative;
+top: 20px;
+}
+
+div#footcar-1{
+width: 190px;
+}
+
+img#footicon-1{
+border: 4px solid #38393a;
+width: 195px;
+}
+
+h4.footheadcon{
+position: relative;
+bottom: 15px;
+color: orangered;
+}
+
+p.footdes1{
+position: relative;
+bottom: 30px;
+color: aliceblue;
+font-size: 12px;
+}
+
+div#footcar-2{
+width: 190px;
+position: relative;
+bottom: 250px;
+left: 220px;
+}
+
+img#footicon-2{
+border: 4px solid #38393a;
+width: 195px;
+}
+
+h4.footheadcon2{
+position: relative;
+bottom: 15px;
+color: orangered;
+}
+
+p.footdes2{
+position: relative;
+bottom: 30px;
+color: aliceblue;
+font-size: 12px;
+}
+
+div#footcar-3{
+width: 190px;
+position: relative;
+bottom: 500px;
+left: 440px;
+}
+
+img#footicon-3{
+border: 4px solid #38393a;
+width: 195px;
+}
+
+h4.footheadcon3{
+position: relative;
+bottom: 15px;
+color: orangered;
+}
+
+p.footdes3{
+position: relative;
+bottom: 30px;
+color: aliceblue;
+font-size: 12px;
+}
+
+div#footcar-4{
+width: 190px;
+position: relative;
+bottom: 752px;
+left: 660px;
+}
+
+img#footicon-4{
+border: 4px solid #38393a;
+width: 195px;
+}
+
+h4.footheadcon4{
+position: relative;
+bottom: 15px;
+color: orangered;
+}
+
+p.footdes4{
+position: relative;
+bottom: 30px;
+color: aliceblue;
+font-size: 12px;
+}
