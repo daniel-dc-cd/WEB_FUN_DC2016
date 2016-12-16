@@ -46,6 +46,7 @@ h1
 ul
 {
     margin: auto 1em;
+    color: white;
 }
 #main_content
 {
@@ -56,16 +57,12 @@ ul
     border-radius: 20px;
     margin: 20px;
 }
-.description
-{
-    display: inline;
-}
-h2
+#main_content h2
 {
     color: white;
     margin: 20px;
 }
-p
+#main_content li
 {
     color: white;
     margin: 20px;
