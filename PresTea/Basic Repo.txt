@@ -1,0 +1,20 @@
+
+ cd desktop
+ mkdir basic_repo2
+ cd basic_repo2/
+ git init
+ touch aboutme.txt
+ touch hi.txt
+ vi aboutme.txt
+ git add .
+ git commit -m "first commit"
+ git remote add origin https://github.com/PresTea/basic_repo1.git
+ git push -u origin master
+
+ cd basic_repo2
+ vi aboutme.txt 
+ git status
+ git add aboutme.txt
+ git status
+ git commit -m "changes to aboutme"
+ git push -u origin master
