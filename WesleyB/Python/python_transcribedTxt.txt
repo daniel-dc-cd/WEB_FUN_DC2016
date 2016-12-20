@@ -1,0 +1,23 @@
+First appearing in 1991, Python is a general-purpose, high-level, interpreted programming language whose design focus emphasizes code readibility. Whether for processing/analyzing data to powering many well-known applications, Python is not only a great language for new programmers but also powerful enough for seasoned developers building whatever they can think of.
+
+Help and General Contact  Diversity Initiatives  Submit Website Bugs
+
+Copyright &copy; 2001-2016
+
+
+
+Python can be easy to pick up whether you're a first time programmer or you're experienced with other languages.  The following pages are a useful first step to get on your way writing programs with Python!
+
+
+Beginner's Guide, Programmers
+Beginner's Guide, Programmers
+Code sample and snippets for Beginners
+
+The Python Package Index (PyPI) host thousands of third-party modules for Python. Bth Python's standard library and the community contributed modeuls allow for endless possiblilites.
+
+
+Web and Internet Development
+Database Access
+Desktop GUIs
+Network Programming
+Software and Game Development
