@@ -1,0 +1,71 @@
+body{
+  /*width:900px;*/
+  margin-left: 80px;
+    margin-right: 50px;
+    margin-top: 50px;
+  height: 950px;
+  background-color: aliceblue;
+
+}
+h1{
+  text-align: center;
+  color:orangered;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  font-family: fantasy;
+  text-decoration-color: white;
+}
+div{
+  width:200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+  position: relative;
+  top: -40px;
+  bottom:-90px;
+  padding-top: -45px;
+}
+#imgone{
+  position: relative;
+    top: 0px;
+}
+
+#imgtwo{
+  position: relative;
+    top: -30px;
+}
+#imgthree{
+  position: relative;
+    top: -60px;
+}
+#imgfour{
+  position: relative;
+    top: -90px;
+}
+#imgfive{
+  position: relative;
+    top: -120px;
+}
+#imgsix{
+  position: relative;
+    top: -150px;
+}
+#imgseven{
+  position: relative;
+    top: -180px;
+}
+#imgeight{
+  position: relative;
+    top: -210px;
+}
+#imgnine{
+  position: relative;
+    top: -240px;
+}
+#imgten{
+  position: relative;
+    top: -270px;
+}

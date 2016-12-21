@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> ninja to cat</title>
+    <link rel="stylesheet" href="cat.css">
+    <script type="text/javascript" src = "https://code.jquery.com/jquery-2.x-git.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+          // $('#imgone').click(function(){
+          //     $('#imgone').replaceWith($('#imgtwo'));
+          //
+          //
+          // });
+
+
+          var src1= $('img').attr('src');
+          $(this).attr('src',src1);
+          console.log(src1);
+
+          $('img').click(function() {
+  
+  var src = $(this).attr('data-alt-src');
+  $(this).attr('src',src);
+});
+      });
+    </script>
+    </head>
+
+    <body>
+  <h1> Cat Ninja Puzzle<h1>
+    <div>
+      <img src='ninja0.png' data-alt-src='cat0.png' />
+      <img src='ninja1.png' data-alt-src='cat1.png' />
+      <img src='ninja2.png' data-alt-src='cat2.png' />
+      <img src='ninja3.png' data-alt-src='cat3.png' />
+      <img src='ninja4.png' data-alt-src='cat4.png' />
+  <!-- <img id = "imgone" src="cat0.png" data-alt-src='cat0.png'>
+  <img id = "imgtwo" src="cat1.png" data-alt-src='cat1.png'>
+  <img id = "imgthree" src="cat2.png" data-alt-src='cat2.png'>
+  <img id = "imgfour" src="cat3.png" data-alt-src='cat3.png'>
+  <img id = "imgfive" src="cat4.png" data-alt-src='cat4.png'>
+  <img id = "imgsix" src="ninja0.png" data-alt-src='ninja0.png'>
+  <img id = "imgseven" src="ninja1.png" data-alt-src='ninja1.png'>
+  <img id = "imgeight" src="ninja2.png" data-alt-src='ninja2.png'>
+  <img id = "imgnine" src="ninja3.png" data-alt-src='ninja3.png'>
+  <img id = "imgten" src="ninja4.png" data-alt-src='ninja4.png'> -->
+</div>
+
+  </body>
+</html>
