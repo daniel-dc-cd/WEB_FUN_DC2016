@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...">
+		<title>My Fake Blog!</title>
+		<style media="screen">
+			.container{
+				display: flex;
+				align-items: center;
+				height: auto;
+				width: 50%;
+				margin: 0 auto;
+				flex-direction: column;
+			}
+
+			.container > div{
+				width: inherit;
+				display: inherit;
+				flex-direction: column;
+				align-items: center;
+				padding: 0, 0, 50px, 20px;
+				border-radius: 7px;
+				text-align: center;
+			}
+
+			thead, th, td{
+				border: 2px solid darkgray;
+			}
+
+			.bg1{
+				background-color: #c3f4f8;
+				color: #273fbe;
+			}
+
+			.bg2{
+				background-color: #273fbe;
+				color: #c3f4f8;
+			}
+
+			#green{
+				color: #0F0;
+			}
+			#red{
+				color: #F00;
+			}
+
+			a:visited{
+				color: inherit;
+			}
+			.container > div{
+				width: inherit;
+				display: inherit;
+				flex-direction: column;
+				align-items: center;
+				padding: 0, 0, 50px, 20px;
+				border-radius: 7px;
+				text-align: center;
+			}
+
+			thead, th, td{
+				border: 2px solid darkgray;
+			}
+
+			.bg1{
+				background-color: #c3f4f8;
+				color: #273fbe;
+			}
+
+			.bg2{
+				background-color: #273fbe;
+				color: #c3f4f8;
+			}
+
+			#green{
+				color: #0F0;
+			}
+			#red{
+				color: #F00;
+			}
+
+			a:visited{
+				color: inherit;
+			}
+			form{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+			form > input{
+				padding: 10px 0;
+			}
+
+			form{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+			form > input{
+				padding: 5px;
+				border-radius: 3px;
+			}
+
+			input[type=radio], input[type=checkbox]{
+				width: 20px;
+				height: 20px;
+				margin: 5px;
+				padding: 0;
+				opacity: .8;
+				transition: box-shadow 200ms ease-in;
+
+			}
+
+			input[type=radio]:hover, input[type=checkbox]:hover{
+				box-shadow: -3px 3px #000;
+			}
+
+			select{
+				height: 20px;
+				font-size: 16px;
+				margin: 10px 0;
+				/*padding: 18px 5px;*/
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Lorem Ipsum</h1>
+			<div class="bg1">
+				<h2>Lorem Ipsum Intro</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dictum, lorem quis rutrum vehicula, ligula ipsum eleifend ligula, mattis dignissim ligula neque elementum tellus.
+					Integer vitae iaculis risus. Morbi vitae ipsum sapien. Nullam at velit vel est convallis imperdiet in id arcu. Sed interdum viverra pretium. Cras ac tincidunt leo.
+					Aliquam tempor, urna eget dictum luctus, lacus diam hendrerit est, lacinia sollicitudin ligula eros vitae nisi.
+				</p>
+			</div>
+			<div class = "bg2">
+				<h2>Lorem Ipsum Uses</h2>
+				<ul>
+					<li>Lorem Ipsum</li>
+					<li>Lorem Ipsum</li>
+					<li>Lorem Ipsum</li>
+					<li>Lorem Ipsum</li>
+					<li>Lorem Ipsum</li>
+					<li>Lorem Ipsum</li>
+					<li>Lorem Ipsum</li>
+				</ul>
+			</div>
+			<div class = "bg1">
+				<h2>Lorem Ipsum Data</h2>
+				<table>
+					<thead>
+						<tr>
+							<th>Lorem</th>
+							<th>Ipsum</th>
+						</tr>
+					</thead>
+					<tfoot>
+						<tr>
+							<td><strong><span id="green">LOREM</span></strong></td>
+							<td><strong><span id="red">IPSUM</span></strong></td>
+						</tr>
+					</tfoot>
+					<tbody>
+						<tr>
+							<td>lorem</td>
+							<td>ipsum</td>
+						</tr>
+						<tr>
+							<td>lorem</td>
+							<td>ipsum</td>
+						</tr>
+						<tr>
+							<td>lorem</td>
+							<td>ipsum</td>
+						</tr>
+						<tr>
+							<td>lorem</td>
+							<td>ipsum</td>
+						</tr>
+						<tr>
+							<td>lorem</td>
+							<td>ipsum</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class = "bg2">
+				<h2>More info</h2>
+				<p>
+					<a href="http://www.lipsum.com/feed/html">Lorem Ipsum Feed</a>
+				</p>
+			</div>
+
+			<div class="bg1">
+				<h2>Lorem Ipsum Suvey</h2>
+				<form action="">
+					<label for="name">Name: </label>
+					<input type="text" id="name" autofocus>
+					<select name="" id="">
+						<option value="option1">Option1</option>
+						<option value="option2">Option2</option>
+						<option value="option3">Option3</option>
+						<option value="option4">Option4</option>
+					</select>
+					<label for="neque">Neque</label>
+					<input type="checkbox" id="neque">
+					<input type="radio" name="radio_lorem" value="lorem1">
+					<input type="radio" name="radio_lorem" value="lorem2">
+					<input type="radio" name="radio_lorem" value="lorem3">
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

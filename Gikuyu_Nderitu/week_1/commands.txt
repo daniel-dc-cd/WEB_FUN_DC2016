@@ -1,0 +1,7 @@
+mkdir
+touch
+rm -rf
+cp
+mv
+ls
+rm
