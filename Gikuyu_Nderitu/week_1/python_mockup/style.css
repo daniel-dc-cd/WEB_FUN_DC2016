@@ -97,6 +97,10 @@ header{
 	color: white;
 	padding: 7px 9px;
 }
+
+#search-bar input[type=submit]:hover{
+	cursor: pointer;
+}
 nav ul{
 	margin: 0 auto;
 	width: 80%;
