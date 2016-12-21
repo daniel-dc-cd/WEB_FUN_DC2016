@@ -1,0 +1,37 @@
+//- Author: Gikuyu Nderitu
+//- Date: 12/20/2016
+//- Project: Disappearing Ninja
+
+doctype
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		meta(name="Users" content="This is the project that simulates a user table")
+		title Users
+		link(rel="stylesheet", href="assets/css/style.css", attr)
+		script(src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous")
+		script(type="text/javascript" src="assets/js/functions.js")
+	body
+		header
+			h1 jQuery Assignment 
+			h2 Users
+		main
+			table#user-table
+				tr
+					th First Name
+					th Last Name
+					th Email Address
+					th Contact #
+				
+			h2 Add Users
+			form#add-user
+				label First Name:
+					input(type="text", name="first_name", required)
+				label(for="") Last Name
+					input(type="text", name="last", required)
+				label(for="") Email Address:
+					input(type="email", name="email_address", required)
+				label(for="") Contact No.:
+					input(type="text", name="phone_number")
+		
+		a(href="#") hAck3d by Gikuyu Nderitu - Atypical Dev
