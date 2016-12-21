@@ -1,0 +1,464 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	background-color: #1A1A1A;
+	/*outline: red dotted;*/
+	width: 970px;
+	height: 1100px;
+	margin: 0 auto;
+	position: relative;
+}
+#header{
+	background-color: #1A1A1A;
+	/*outline: green dotted;*/
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 970px;
+	height: 110px;
+}
+#modpic{
+	/*outline: purple dotted;*/
+	height: 70px;
+	width: 225px;
+	position: relative;
+	top: 15px;
+	left: 20px;
+}
+	#modpic img{
+		position: relative;
+		top: 2px;
+		left: 1px;
+	}
+#callme{
+	/*outline: purple dotted;*/
+	width: 180px;
+	position: relative;
+	bottom: 40px;
+	left: 760px;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	font-family: Helvetica;
+}
+#main1{
+	/*outline: green dotted;*/
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 970px;
+	height: 400px;
+}
+#nav{
+	background-color: #414141;
+	display: inline-block;
+	/*outline: yellow dotted;*/
+	position: relative;
+	top: 0;
+	left: -1px;
+	height: 40px;
+	width: 969px;
+	color: #7a7a7a !important;
+    border-right: 1px solid #383838 !important;
+    border-left: 1px solid #ffffff !important;
+}
+	#navbutt a:last-child{
+		border-right: 0px !important;
+	}
+	#navbutt a{
+		padding: 0px 18px 0px 18px;
+		border-right: 1px solid #383838 !important;
+		color: silver;
+		font-family: Helvetica;
+		font-weight: bold;
+		margin: 20px;
+		text-decoration: none;
+		/*outline: purple dotted;*/
+		position: relative;
+		top: 10px;
+		left: 0;
+	}
+#bigpic{
+	/*outline: purple dotted;*/
+	height: 350px;
+	width: 970px;
+	border-bottom: #3B3B3B 5px solid;
+}
+	#bigpic img{
+		width: 970px;
+		height: 350px;
+	}
+#features{
+	background-color: #1A1A1A;
+	position: relative;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	/*outline: purple dotted;*/
+	height: 150px;
+	width: 970px;
+}
+	#feat1{
+		/*outline: white dotted;*/
+		position: relative;
+		top: 0px;
+		left: 0px;
+		width: 240px;
+		height: 140px;
+	}
+		#feat1p{
+			position: relative;
+			top: 25px;
+			left: 0;
+		}
+		#feat1d{
+			font-size: 20px;
+			position: relative;
+			top: -10px;
+			left: 50px;
+			/*outline: blue dotted;*/
+			color: #EF7F2B;
+			width: 180px;
+		}
+		#feat1t{
+			font-size: 14px;
+			/*outline: blue dotted;*/
+			text-align: left;
+			color: white;
+			font-family: Helvetica;
+			width: 180px;
+			position: relative;
+			top: 2px;
+			left: 50px;
+		}
+	#feat2{
+		/*outline: white dotted;*/
+		position: relative;
+		top: -145px;
+		left: 245px;
+		width: 240px;
+		height: 140px;
+	}
+		#feat2p{
+			position: relative;
+			top: 25px;
+			left: 0;
+		}
+		#feat2d{
+			font-size: 20px;
+			position: relative;
+			top: -10px;
+			left: 50px;
+			/*outline: blue dotted;*/
+			color: #EF7F2B;
+			width: 180px;
+		}
+		#feat2t{
+			font-size: 14px;
+			/*outline: blue dotted;*/
+			text-align: left;
+			color: white;
+			font-family: Helvetica;
+			width: 180px;
+			position: relative;
+			top: 2px;
+			left: 50px;
+		}
+	#feat3{
+		/*outline: white dotted;*/
+		position: relative;
+		top: -280px;
+		left: 490px;
+		width: 240px;
+		height: 140px;
+	}
+		#feat3p{
+			position: relative;
+			top: 25px;
+			left: 0;
+		}
+		#feat3d{
+			font-size: 20px;
+			position: relative;
+			top: -10px;
+			left: 45px;
+			/*outline: blue dotted;*/
+			color: #EF7F2B;
+			width: 180px;
+		}
+		#feat3t{
+			font-size: 14px;
+			/*outline: blue dotted;*/
+			text-align: left;
+			color: white;
+			font-family: Helvetica;
+			width: 180px;
+			position: relative;
+			top: 2px;
+			left: 45px;
+		}
+	#feat4{
+		/*outline: white dotted;*/
+		position: relative;
+		top: -420px;
+		left: 730px;
+		width: 240px;
+		height: 140px;
+	}
+		#feat4p{
+			position: relative;
+			top: 25px;
+			left: 5px;
+		}
+		#feat4d{
+			font-size: 20px;
+			position: relative;
+			top: -15px;
+			left: 50px;
+			/*outline: blue dotted;*/
+			color: #EF7F2B;
+			width: 180px;
+		}
+		#feat4t{
+			font-size: 14px;
+			/*outline: blue dotted;*/
+			text-align: left;
+			color: white;
+			font-family: Helvetica;
+			width: 180px;
+			position: relative;
+			top: -3px;
+			left: 50px;
+		}
+#header2{
+	/*outline: green dotted;*/
+	position: relative;
+	top: 150px;
+	left: 0;
+	width: 970px;
+	height: 125px;
+	background: url(http://demo.goodlayers.com/modernize/wp-content/themes/modernize/images/icon/dark/left-cross-5px.png);
+    background-image: url(http://demo.goodlayers.com/modernize/wp-content/themes/modernize/images/icon/dark/left-cross-5px.png);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+#header2text{
+	/*outline: white dotted;*/
+	width: 500px;
+	height: 90px;
+	position: relative;
+	top: 18px;
+	left: 30px;
+}
+	#h2tbig{
+		/*outline: blue dotted;*/
+		width: 490px;
+		height: 30px;
+		position: relative;
+		top: 5px;
+		left: 0px;
+		color: white;
+		font-size: 13px;
+		font-family: Helvetica;
+	}
+	#h2tlil{
+		/*outline: blue dotted;*/
+		width: 490px;
+		height: 40px;
+		position: relative;
+		top: 15px;
+		left: 0px;
+		color: white;
+		font-size: 11px;
+		font-family: Helvetica;
+	}
+#button{
+	/*outline: white dotted;*/
+	padding: 0px 20px 0px 20px;
+	text-decoration: none;
+	position: relative;
+	top: -40px;
+	left: 800px;
+	height: 28px;
+	width: 30px;
+	background: url(images/gradient-top-32px.png) repeat-x;
+	font-family: Helvetica;
+	font-size: 20px;
+	border-radius: 5px;
+	color: #ffffff !important;
+    background-color: #ef7f2c !important;
+    border: 1px solid #ef7f2c !important;
+}
+#main2{
+	/*outline: green dotted;*/
+	position: relative;
+	top: 152px;
+	left: 0px;
+	width: 970px;
+	height: 300px;
+}
+	#column1{
+		/*outline: white dotted;*/
+		width: 240px;
+		height: 300px;
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+		#portfoliotext{
+			/*outline: blue dotted;*/
+			color: white;
+			width: 80px;
+			position: relative;
+			top: 5px;
+			left: 10px;
+		}
+		#pic1{
+			/*outline: blue dotted;*/
+			width: 210px;
+			height: 135px;
+			border: #3B3B3B 5px solid;
+			position: relative;
+			top: 8px;
+			left: 10px;
+		}
+		#desc1{
+			color: #EF7F2B;
+			position: relative;
+			top: 8px;
+			left: 10px;
+		}
+		#text1{
+			/*outline: blue dotted;*/
+			color: white;
+			position: relative;
+			top: 8px;
+			left: 10px;
+			font-size: 12px;
+			width: 220px;
+		}
+	#column2{
+		/*outline: white dotted;*/
+		width: 240px;
+		height: 300px;
+		position: relative;
+		top: -300px;
+		left: 242px;	
+	}
+		#pic2{
+			/*outline: blue dotted;*/
+			width: 210px;
+			height: 135px;
+			border: #3B3B3B 5px solid;
+			position: relative;
+			top: 28px;
+			left: 10px;
+		}
+		#desc2{
+			color: #EF7F2B;
+			position: relative;
+			top: 28px;
+			left: 10px;
+		}
+		#text2{
+			/*outline: blue dotted;*/
+			color: white;
+			position: relative;
+			top: 28px;
+			left: 10px;
+			font-size: 12px;
+			width: 220px;
+		}
+	#column3{
+		/*outline: white dotted;*/
+		width: 240px;
+		height: 300px;
+		position: relative;
+		top: -600px;
+		left: 484px;
+	}
+		#pic3{
+			/*outline: blue dotted;*/
+			width: 210px;
+			height: 135px;
+			border: #3B3B3B 5px solid;
+			position: relative;
+			top: 28px;
+			left: 10px;
+		}
+		#desc3{
+			color: #EF7F2B;
+			position: relative;
+			top: 28px;
+			left: 10px;
+		}
+		#text3{
+			/*outline: blue dotted;*/
+			color: white;
+			position: relative;
+			top: 28px;
+			left: 10px;
+			font-size: 12px;
+			width: 220px;
+		}
+	#column4{
+		/*outline: white dotted;*/
+		width: 240px;
+		height: 300px;
+		position: relative;
+		top: -900px;
+		left: 726px;
+	}
+		#viewalllink a{
+			/*outline: blue dotted;*/
+			text-decoration: none;
+			color: #EF7F2B;
+			font-size: 12px;
+			position: relative;
+			top: 3px;
+			left: 142px;
+		}
+		#pic4{
+			/*outline: blue dotted;*/
+			width: 210px;
+			height: 135px;
+			border: #3B3B3B 5px solid;
+			position: relative;
+			top: 8px;
+			left: 10px;
+		}
+		#desc4{
+			color: #EF7F2B;
+			position: relative;
+			top: 8px;
+			left: 10px;
+		}
+		#text4{
+			/*outline: blue dotted;*/
+			color: white;
+			position: relative;
+			top: 8px;
+			left: 10px;
+			font-size: 12px;
+			width: 220px;
+		}
+		#back a{
+			/*outline: blue dotted;*/
+			text-decoration: none;
+			color: gray;
+			font-family: Helvetica;
+			font-size: 10px;
+			position: relative;
+			top: 40px;
+			left: 180px;
+
+		}
