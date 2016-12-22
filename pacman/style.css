@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div.brick {
+    background-color: blue;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+div#scoreboard{
+    border: 4px dotted orange;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    width: 100px;
+    height: 20px;
+    font-size: 18px;
+    font-family: fantasy;
+}
+
+div.row div {
+    display: inline-block;
+    height: 30px;
+    vertical-align: top;
+    width: 20px;
+}
+
+div.empty{
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+
+div.coin {
+    background-color: black;
+    background-image: url(images/giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#pacman {
+    background-image: url(images/pacman.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+div.power {
+    background-color: black;
+    background-image: url(images/gift.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+
+}
+
+div.pinky {
+    background-color: black;
+    background-image: url(images/pinky.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+
+div.redy {
+    background-color: black;
+    background-image: url(images/redy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+
+div.clyde {
+    background-color: black;
+    background-image: url(images/clyde.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+
+div.inky {
+    background-color: black;
+    background-image: url(images/inky.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+
+.wrapper {
+    margin: 60px;
+}
+
+.board {
+}
