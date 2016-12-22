@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Contact Card</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="contactcard.css">
+    <script src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+    <script type="text/javascript">
+        $.ajax({
+            url: 'https://randomuser.me/api/',
+            dataType: 'json',
+            success: function(data) {
+                console.log(data);
+            }
+        });
+        $(document).ready(function(){
+            $.ajax();
+            $('form').submit(function(){
+                var First= $("#firstname").val();
+                var Last= $("#lastname").val();
+                var Description= $("#description").val();
+                var Face= "";
+                $.ajax({
+                    url: 'https://randomuser.me/api/',
+                    dataType: 'json',
+                    success: function(data) {
+                        console.log(data);
+
+                        Face=data.results[0].picture.medium;
+                    }
+                }).then(function(response){
+                    $("#hedwig").prepend("<ul class='change'><li><img src="+ Face +"></li><li>"+ First +"</li><li>"+ Last+"</li><li class='extra'>"+Description+"</li></ul>");
+                    console.log(Face, First, Last, Description);
+                })
+                .then(function(response){
+                    $(".extra").hide();
+                })
+                return false;
+            });
+            $(document).on("click", ".change", function(){
+                if($(".extra"))
+                $(".extra").toggle("#description");
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="hogwarts">
+    <h1><em>Contact Card</em></h1>
+    <form class="potions">
+        <table>
+            <tr>
+                <td><label>First Name:</label></td>
+                <td><input class="flying" type="text" name="firstname" placeholder="First Name" id="firstname" required ></td>
+            </tr>
+            <tr>
+                <td><label>Last Name:</label></td>
+                <td><input class="transfiguration" type="text" name="lastname" placeholder="Last Name" id="lastname" required ></td>
+            </tr>
+            <tr>
+                <td><label>Description:</label></td>
+                <td><input type="text" name="description" placeholder="Enter description" id="description"></td>
+            </tr>
+        </table>
+        <input id="granger" type="submit" value="Add User">
+    </form>
+    <div id="weasley">
+        <h2>Find your friends!</h2>
+        <div id="hedwig">
+        </div>
+    </div>
+</div>
+</body>
+</html>

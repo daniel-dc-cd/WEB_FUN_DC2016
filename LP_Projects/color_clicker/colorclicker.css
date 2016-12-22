@@ -1,0 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper{
+    margin: 20px;
+    background-color: gainsboro;
+    border: black 5px solid;
+    padding: 20px;
+    width: 800px;
+}
