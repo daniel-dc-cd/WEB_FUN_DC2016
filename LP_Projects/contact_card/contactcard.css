@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#hogwarts{
+    margin:20px;
+    padding: 40px;
+    border: black solid 1px;
+    width: 800px;
+    display: block;
+    background-color: papayawhip;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.potions{
+    width: 300px;
+    display: inline-block;
+}
+
+table tr td{
+    padding: 5px;
+}
+
+#granger{
+    margin-top: 20px;
+    border: solid black 2px;
+    background-color: white;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+#weasley{
+    display: inline-block;
+    width: 350px;
+    vertical-align: top;
+    /*border: solid red 2px;*/
+    margin-left: 100px;
+}
+h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#hedwig{
+    width: 350px;
+    text-align: center;
+}
+
+img{
+    margin: 10px 0px;
+}
+
+ul {
+    border: solid black 1px;
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: lavenderblush;
+}
+
+li{
+    list-style: none;
+    margin: 5px;
+}

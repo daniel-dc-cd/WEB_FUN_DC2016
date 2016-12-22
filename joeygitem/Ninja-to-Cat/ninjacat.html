@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ninja Cat Puzzle</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script type="text/javascript" src="./jquery-3.1.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var cat0 = "./cat0.png"
+			var cat1 = "./cat1.png"
+			var cat2 = "./cat2.png"
+			var cat3 = "./cat3.png"
+			var cat4 = "./cat4.png"
+			var nin0 = "./ninja0.png"
+			var nin1 = "./ninja1.png"
+			var nin2 = "./ninja2.png"
+			var nin3 = "./ninja3.png"
+			var nin4 = "./ninja4.png"
+			$('#img0').on('click', function() {
+				if ( $('#img0').attr('src') == cat0 ) {
+					$('#img0').attr('src', nin0);
+				} else {
+					$('#img0').attr('src', cat0);
+				}
+			});
+			$('#img1').on('click', function() {
+				if ( $('#img1').attr('src') == cat1 ) {
+					$('#img1').attr('src', nin1);
+				} else {
+					$('#img1').attr('src', cat1);
+				}
+			});
+			$('#img2').on('click', function() {
+				if ( $('#img2').attr('src') == cat2 ) {
+					$('#img2').attr('src', nin2);
+				} else {
+					$('#img2').attr('src', cat2);
+				}
+			});
+			$('#img3').on('click', function() {
+				if ( $('#img3').attr('src') == cat3 ) {
+					$('#img3').attr('src', nin3);
+				} else {
+					$('#img3').attr('src', cat3);
+				}
+			});
+			$('#img4').on('click', function() {
+				if ( $('#img4').attr('src') == cat4 ) {
+					$('#img4').attr('src', nin4);
+				} else {
+					$('#img4').attr('src', cat4);
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="catcontainer">
+			<img src="./cat0.png" src2="./ninja0.png" id="img0">
+			<img src="./cat1.png" src2="./ninja1.png" id="img1">
+			<img src="./cat2.png" src2="./ninja2.png" id="img2">
+			<img src="./cat3.png" src2="./ninja3.png" id="img3">
+			<img src="./cat4.png" src2="./ninja4.png" id="img4">
+		</div>
+	</div>
+</body>
+</html>

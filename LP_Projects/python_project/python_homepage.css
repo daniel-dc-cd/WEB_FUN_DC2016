@@ -2,15 +2,27 @@
     padding:0px;
     margin: 0px;
     font-family: arial, "helvetica neue", sans-serif;
+<<<<<<< HEAD
 }
 /**:hover{
     outline: 1px dashed red;
 }*/
+=======
+
+}
+*:hover{
+    outline: 1px dashed red;
+}
+>>>>>>> e44ba631d5b432bd02352e24b566b16f42acf4db
 
 #wrapper{
     width:970px;
     height:auto;
     display: block;
+<<<<<<< HEAD
+=======
+    margin: 30px auto 30px auto;
+>>>>>>> e44ba631d5b432bd02352e24b566b16f42acf4db
 }
 #container1{
     background-color: #2b5b84;
@@ -178,7 +190,10 @@ input{
     width: inherit;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e44ba631d5b432bd02352e24b566b16f42acf4db
 #gettingstarted{
     text-align:center;
     display:inline-block;

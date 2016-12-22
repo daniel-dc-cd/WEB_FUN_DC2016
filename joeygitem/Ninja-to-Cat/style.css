@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	/*outline: black dotted;*/
+	height: 100%;
+	width: 970px;
+	margin: 0 auto;
+}
+.catcontainer{
+	padding: 15px;
+	vertical-align: top;
+	/*outline: red dotted;*/
+	height: 100%;
+	width: 180px;
+	margin: 0 auto;
+}
