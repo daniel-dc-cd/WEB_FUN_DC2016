@@ -2,15 +2,17 @@
     padding:0px;
     margin: 0px;
     font-family: arial, "helvetica neue", sans-serif;
+
 }
-/**:hover{
+*:hover{
     outline: 1px dashed red;
-}*/
+}
 
 #wrapper{
     width:970px;
     height:auto;
     display: block;
+    margin: 30px auto 30px auto;
 }
 #container1{
     background-color: #2b5b84;
@@ -177,7 +179,6 @@ input{
     height: auto;
     width: inherit;
 }
-
 
 #gettingstarted{
     text-align:center;
