@@ -1,0 +1,87 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper
+{
+    outline: 1px solid red;
+    height: 1400px;
+    width: 970px;
+    background-color: black;
+    margin: 0px auto;
+}
+#main_content
+{
+    outline: 1px solid red;
+    height: 1400px;
+    width: 950px;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+    .subcontents
+    {
+        outline: 1px solid red;
+        height: 100px;
+        width: 930px;
+        padding: 10px;
+    }
+        .button_left
+        {
+            outline: 1px solid red;
+            font-size: 20px;
+            vertical-align: top;
+            margin: 35px;
+        }
+        .button_right
+        {
+            outline: 1px solid red;
+            font-size: 20px;
+            vertical-align: top;
+            position: relative;
+            left: 134px;
+            bottom: 96px;
+            margin: 35px;
+        }
+        .subcontents h3
+        {
+            outline: 1px solid red;
+            color: white;
+            vertical-align: top;
+            display: inline-block;
+            position: relative;
+            left: 200px;
+        }
+        .subcontents p
+        {
+            outline: 1px solid red;
+            width: 650px;
+            vertical-align: top;
+            display: inline-block;
+            position: relative;
+            bottom: 61px;
+            left: 146px;
+        }
+        .classy
+        {
+            color: black;
+            font-style: italic;
+        }
+        .subcontents em
+        {
+            color: black;
+            font-weight: bolder;
+            font-style: oblique;
+        }
+        .subcontents form
+        {
+            outline: 1px solid red;
+            width: 650px;
+            vertical-align: top;
+            display: inline-block;
+            position: relative;
+            bottom: 61px;
+            left: 146px;
+        }

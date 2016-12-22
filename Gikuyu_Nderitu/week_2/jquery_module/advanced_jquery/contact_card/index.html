@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="Contact Card" content="This is the project that simulates a contact card">
+    <title>Contact Card</title>
+    <link rel="stylesheet" href="assets/css/style.css" attr>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/functions.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>jQuery Assignment </h1>
+      <h2>Contact Card Assignment</h2>
+    </header>
+    <main>
+      <h2>Contact Card</h2>
+      <section id="input-output">
+        <form id="form-input">
+          <label>First Name:
+            <input class="focus" id="first" type="text" name="first_name" required>
+          </label>
+          <label for="">Last Name:
+            <input class="focus" id="last" type="text" name="last" required>
+          </label>
+          <label for=""><span>Description:</span>
+            <textarea class="focus" id="description" name="description" form="form-input" required></textarea>
+          </label>
+          <label id="gender-label" for="">Gender:  <span>Male</span>
+            <input id="male" type="radio" name="gender" value="male" required><span>Female</span>
+            <input id="female" type="radio" name="gender" value="female">
+          </label>
+          <input id="submit" type="submit" value="Submit">
+        </form>
+        <article>
+          <ul id="output"></ul>
+        </article>
+      </section>
+    </main><a href="#">hAck3d by Gikuyu Nderitu - Atypical Dev</a>
+  </body>
+</html>

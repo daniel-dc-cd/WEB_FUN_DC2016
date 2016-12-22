@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JQuery Functions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+
+
+        //.click Example
+        $(".click-class").click(function(){
+            alert("I told you an alert box would appear! Ha");
+        });
+
+        //.hide and .show Examples
+        $("#hide").click(function(){
+            $("#hide-show").hide("slow");
+        });
+        $("#show").click(function(){
+            $("#hide-show").show("slow");
+        });
+
+        //.toggle Example
+        $("#toggle").click(function() {
+          $("#toggle-p").toggle();
+          $("#toggle-p1").toggle();
+        });
+
+        //.slideDown & slideUp Example
+        $("#flip").click(function(){
+          $("#panel").slideDown("slow").delay(1500).slideUp("slow");
+        });
+
+        //.slideToggle Example
+        $("#flip-toggle").click(function(){
+          $("#panel-toggle").slideToggle("slow");
+        });
+
+        //.fadeIn Example
+        $("#FadeIn").click(function(){
+          $("#div1").fadeIn();
+        });
+
+        //.fadeOut Example
+        $("#FadeOut").click(function(){
+          $("#div2").fadeOut();
+        });
+
+        //.addClass Example
+        $("button.add-Class").click(function(){
+          $("p.add-Class").addClass("intro");
+        });
+
+        //.before Example
+        $("button.before-Class").click(function(){
+          $("p.before-Class").before("<p>Hello world!</p>");
+        });
+
+        //.after Example
+        $("button.after-Class").click(function(){
+          $("p.after-Class").after("<p>Hello world!</p>");
+        });
+
+        //.append Class
+        $("button.append-Class").click(function(){
+          $("p.append-Class").append(" <b>Appended text</b>.");
+        });
+
+        //.html Class
+        $("button.html-Class").click(function(){
+          $("p.html-Class").html("Hello <b>world!</b>");
+        });
+
+        //.attrClass Example
+        $("button.attr-Class").click(function(){
+          $("img.attr-Class").attr("width", "400");
+        });
+
+        //.valClass Example
+        $("button.val-Class").click(function(){
+          $("input:text").val("Eric Washington");
+        });
+
+        //.textClass Example
+        $("button.text-Class").click(function(){
+          $("p.text-Class").text("Hello World");
+        });
+
+        //.dataClass Example
+        $("button.data-Class").click(function(){
+          alert($(".dataClass").data("greeting"));
+        });
+
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="click-class">
+        <h4>When you click this paragraph an alert box will appear!</h4>
+      </div>
+      <div class="hide-show">
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+
+        <p id="hide-show">If you click on the "Hide" button, I will disappear.</p>
+      </div>
+      <div class="toggle-class">
+        <button id="toggle">Toggle Me</button>
+        <p id="toggle-p">Are we there Yet?</p>
+        <p id="toggle-p1" style="display: none">No</p>
+      </div>
+      <div class="slideDown">
+          <div id="flip">Click to slide the panel up and down</div>
+          <div id="panel">Whats up son son!</div>
+      </div><br>
+      <div class="slideToggle">
+        <div id="flip-toggle">Click to slide to see .slideToggle() and its behavior</div>
+        <div id="panel-toggle">Im Back Son Son!!</div>
+      </div><br>
+      <div class="fade-In">
+        <button id="FadeIn">Catch Me Fading In</button>
+         <div id="div1" style="margin: 15px;width:80px;height:80px;display:none;background-color:red;"></div><br>
+      </div><br>
+      <div class="fade-Out">
+        <button id="FadeOut">Catch Me Fading Out</button>
+         <div id="div2" style="margin: 15px;width:80px;height:80px;background-color:red;"></div><br>
+      </div><br>
+      <div class="addClassDiv">
+        <h1 class="add-Class">This is a heading</h1>
+
+        <p class="add-Class">This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+
+        <button class="add-Class">Add a class name to the first p element</button>
+      </div><br>
+      <div class="beforeClass">
+        <button class="before-Class">Insert content before each p element</button>
+        <p class="before-Class">This is a paragraph.</p>
+      </div><br>
+      <div class="afterClass">
+        <button class="after-Class">Insert content after each p element</button>
+        <p class="after-Class">This is a paragraph.</p>
+      </div><br>
+      <div class="appendClass">
+        <button class="append-Class">Append Text</button>
+        <p class="append-Class">This is a paragraph.</p>
+      </div><br>
+      <div class="htmlClass">
+        <button class="html-Class">Change content of all p elements</button>
+        <p class="html-Class">This is a paragraph.</p>
+        <p class="html-Class">This is a another paragraph.</p>
+      </div><br>
+      <div class="attrClass">
+        <button class="attr-Class">Set the width attribute of the image</button>
+        <img class="attr-Class" src="images/jordanmeme.png" alt="Jordan Meme"><br>
+      </div><br>
+      <div class="valClass">
+        <p class="val-Class">Name: <input type="text" name="user"></p>
+        <button class="val-Class">Set the value of the input field</button>
+      </div><br>
+      <div class="textClass">
+        <button class="text-Class">Change content of all p elements</button>
+        <p class="text-Class">This is a paragraph.</p>
+      </div><br>
+      <div class="dataClass">
+        <button class="data-Class">Get Data Attached to this div element</button>
+      </div>
+
+    </div>
+  </body>
+</html>

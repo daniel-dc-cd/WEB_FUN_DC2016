@@ -1,0 +1,57 @@
+.*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	background-image: url(./wood.jpg);
+	width: 900px;
+	height: 1800px;
+	margin: 0 auto;
+	position: relative;
+	color: #FFD700;
+}
+button{
+	background-image: url(./redwood.jpg);
+	color: #FFD700;
+	border-image: url(./wood.jpg);
+	border-image-width: 5px;
+}
+h1{
+	color: #FFD700;
+	text-align: center;
+}
+input{
+	border: dotted 5px;
+	border-image: url(./redwood.jpg);
+	background: none;
+	color: #FFD700;
+	text-align: center;
+}
+.framed{
+	padding: 10px;
+	margin-bottom: 20px;
+	font-family: Helvetica;
+	font-size: 1em;
+	color: #FFD700;
+	width: 700px;
+	text-align: center;
+	position: relative;
+	left: 85px;
+	border: #2e1a12 solid 5px;
+    -webkit-border-image: url(./redwood.jpg) 5 stretch;
+    -moz-border-image: url(./redwood.jpg) 5 stretch;
+    border-image: url(./redwood.jpg) 5 stretch;
+}
+#ninja{
+	position: fixed;
+	top: 70%;
+	left: 50%;
+	opacity: 0.5;
+	transform: translate(-50%, -50%);
+}
+#ninja:hover{
+	opacity: 1;
+}
+#ninja.framed{
+	width: auto;
+}

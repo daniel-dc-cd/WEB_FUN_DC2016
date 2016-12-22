@@ -1,0 +1,175 @@
+//Styled by Gikuyu Nderitu
+//Date: 12/20/2016
+
+//Vars
+$accent-color: #458fec
+$compliment-color: #bab9ba
+$secondary-color: rgba(241,241,39,.8)
+$box-shadow: 3px 3px 5px $compliment-color
+
+//Normalization
+*
+	margin: 0
+	padding: 0
+	border: 0
+
+body > *
+	display: flex
+
+header
+	position: fixed
+	top: 0
+	z-index: 1
+	width: 100%
+	height: 150px
+	color: $accent-color
+	border-bottom: 3px solid $accent-color
+	padding: 10px
+	justify-content: center
+	flex-direction: column
+	box-shadow: none
+	transition: box-shadow 400ms ease-in
+	background-color: white !important
+
+	& > *
+		margin-top: 15px
+
+	&:hover
+		box-shadow: $box-shadow
+
+main
+	position: relative
+	top: 150px
+	margin: 30px auto
+	font-size: 1.5em
+	width: 80%
+	flex-flow: column
+	align-items: center
+
+	h2,label
+		margin: 15px 0
+		color: $accent-color
+
+	h2
+		width: auto
+		display: inline-block
+		color: darken($accent-color, 15%)
+		border-bottom: 5px double $compliment-color
+#input-output
+	margin: 45px 0
+	width: 100%
+	display: flex
+	justify-content: space-around
+	flex-flow: row nowrap
+
+	@media screen and (max-width: 650px)
+		flex-flow: column nowrap
+
+form
+	display: flex
+	flex-direction: column
+	font-size: 1.3em
+
+label
+	margin-right: 30px
+	display: inline-block
+	vertical-align: middle
+
+
+input, textarea
+	width: 250px
+	text-align: center
+	font-size: .95em
+	border-bottom: 1px double $accent-color
+	border-right: 1px double $accent-color
+	border-bottom-right-radius: 17px
+	transition: border 200ms linear
+
+	&:focus
+		outline: none
+		border-bottom: 6px double $secondary-color
+		border-right: 6px double $secondary-color
+
+	&:hover
+		border-bottom: 6px double $secondary-color
+		border-right: 6px double $secondary-color
+
+#male
+	outline: none
+	width: 40px
+	height: 15px
+
+#female
+	outline: none
+	width: 40px
+	height: 15px
+textarea
+	padding: 7px
+	border: 1px double $accent-color
+	border-radius: 20px 7px
+
+	&:hover, &:focus
+		outline: none
+		border: 2px solid $secondary-color
+
+
+#submit
+	background: $accent-color
+	color: white
+	display: inline-block
+	align-self: flex-start
+	margin: 0
+	border: none
+	padding: 5px 20px
+	border-radius: 7px
+	outline: none
+	box-shadow: 1px 1px 5px #bbb
+	transition: box-shadow 300ms ease-in-out
+
+	&:hover
+		cursor: pointer
+		box-shadow: 3px 3px 5px #bbb
+
+.contact-card
+	color: darken($accent-color, 20%)
+	padding: 15px
+	margin-bottom: 10px
+	border: 7px double darken($accent-color, 20%)
+	// background-color: #00f2f9
+	position: relative
+	list-style: none
+	text-align: center
+
+	@media screen and (max-width: 650px)
+		margin-top: 60px
+
+.contact-img
+	border-radius: 75px
+	width: 150px
+	height: 150px
+
+	&:hover
+		cursor: pointer
+
+.hidden-description
+	// background: lighten($accent-color, 20%)
+	border-radius: 75px
+	opacity: 0
+	transition: opacity 400ms ease-in
+
+	&.active
+		opacity: .9
+
+		&:hover
+			cursor: pointer
+
+a
+	position: relative
+	top: 150px
+	color: $accent-color
+	text-decoration: none
+	font-size: 1.4em
+	text-align: center
+	width: 300px
+	display: block
+	margin: 35px auto

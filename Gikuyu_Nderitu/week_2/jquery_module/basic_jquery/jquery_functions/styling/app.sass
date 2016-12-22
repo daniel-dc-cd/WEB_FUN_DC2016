@@ -1,0 +1,156 @@
+// Styling by: Gikuyu Nderitu
+// Date: 12/19/2016
+
+//Imports
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|PT+Sans|Righteous')
+
+//vars
+$blue-hues: rgb(93,146,193)
+$righteous: 'Righteous', cursive
+$pt-sans: 'PT Sans One', sans-serif
+$comfotaa: 'Comfortaa', cursive
+
+//Normalizing all the stuffs!
+
+*
+	margin: 0
+	padding: 0
+	border: 0
+
+hr
+	display: block
+	margin: 2.5em auto
+	border: 1px inset #aaa
+	width: 100%
+
+article
+	padding: 3% 2%
+	& > *
+		display: inline-flex
+
+	& > button
+		width: 10%
+		justify-content: center
+		padding: 7px 2px
+		font-size: 20px
+
+		&:hover
+			cursor: pointer
+
+.description
+	flex-flow: column wrap
+	text-align: center
+	width: 80%
+
+	& > h2
+
+	& > p
+
+.fixed
+	position: fixed
+	z-index: 5
+
+.page-toggle
+	position: fixed
+	top: 50%
+	left: 0
+	background-color: transparent
+	width: 35px
+	height: 35px
+	display: none
+	margin-left: 20px
+	border-radius: 5px
+	border-left: 3px solid #aaa
+	border-top: 3px solid #aaa
+	transform: rotate(-45deg)
+
+	&:hover
+		background: rgba(230,230,230,.5)
+
+#toggle-right
+	left: auto
+	right: 0
+	margin-right: 20px
+	border: none
+	border-right: 3px solid #aaa
+	border-bottom: 3px solid #aaa
+
+.active
+	display: flex
+	flex-direction: column
+	justify-content: space-around
+
+
+#container
+	position: relative
+	width: 100vw
+	height: auto
+	display: flex
+	justify-content: center
+	// background: #ddd
+
+header
+	font-family: $righteous
+	width: 100%
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+	border-bottom: 4px solid $blue-hues
+	padding-bottom: 20px
+	background: white
+
+	&>*
+		color: $blue-hues
+		padding: 10px 20px
+
+section
+	width: 70%
+	padding: 30px
+	background: rgba(200,200,200,.3)
+	display: none
+	align-self: center
+	position: relative
+	margin: 150px 0
+	border-radius: 10px
+	font-family: $pt-sans
+
+	&:hover
+		background: darken(rgba(200,200,200,.3),20%)
+
+//demo styles
+.green
+	background: green
+
+.red
+	background: red
+
+.yellow
+	background: yellow
+
+article .page-toggle
+	position: relative
+	margin: 0
+	margin-left: 10px
+	margin-top: 10px
+	top: auto
+	left: auto
+
+textarea
+	width: 50%
+	display: block
+	margin: 15px auto
+	text-align: center
+
+#toggle-background
+	margin-right: 35px
+	width: 60px
+	height: 60px
+	background-color: white
+	border-radius: 30px
+
+
+button:nth-of-type(n+2)
+	background: $blue-hues
+
+div > h2
+	font: 30px $comfotaa

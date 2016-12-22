@@ -1,0 +1,150 @@
+.container {
+  width: 1000px;
+  height: 1000px;
+  background-color: white;
+  margin:0 auto;
+}
+
+/*Slide Down Div*/
+
+.slideDown {
+  width: 500px;
+  height: 175px;
+  background-color: lightgrey;
+}
+
+#flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+  display: none;
+}
+
+/*Slide Toggle Div*/
+
+.slideToggle {
+  width: 500px;
+  height: 175px;
+  background-color: lightgrey;
+}
+
+#flip-toggle {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel-toggle {
+  padding: 50px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+  display: none;
+}
+
+/*Fade In Div*/
+
+.fade-In {
+  width: 300px;
+  height: 300px;
+  background-color: lightgrey;
+}
+
+/*Fade Out Div*/
+
+.fade-Out {
+  width: 300px;
+  height: 300px;
+  background-color: lightgrey;
+}
+
+/*Add Class Div*/
+
+.addClassDiv {
+  width: 500px;
+  height: 300px;
+  background-color: lightgrey;
+}
+
+.intro {
+    font-size: 150%;
+    color: red;
+}
+
+/*Before Class*/
+
+.beforeClass {
+  width: 500px;
+  height: 300px;
+  background-color: lightgrey;
+}
+
+/*After Class*/
+
+.afterClass {
+  width: 500px;
+  height: 300px;
+  background-color: lightgrey;
+}
+
+/*Append Class*/
+
+.appendClass {
+  width: 500px;
+  height: 300px;
+  background-color: lightgrey;
+}
+
+/*HTML Class*/
+
+.htmlClass {
+  width: 500px;
+  height: 300px;
+  background-color: lightgrey;
+}
+
+/*Attr Class*/
+
+.attrClass {
+  width: 700px;
+  height: 700px;
+  background-color: lightgrey;
+}
+
+/*img {
+  width: 100px;
+  height: 100px;
+}*/
+
+/*Val Class*/
+
+.valClass {
+  width: 500px;
+  height: 300px;
+  background-color: lightgrey;
+}
+
+/*Text Class*/
+
+.textClass {
+  width: 500px;
+  height: 300px;
+  background-color: lightgrey;
+}
+
+/*Data Class*/
+
+.dataClass {
+  width: 500px;
+  height: 300px;
+  background-color: lightgrey;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ninja To Cat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $( ".cat-ninja-pic1" ).click(function() {
+        $( ".ninja-pic1" ).toggle();
+      });
+      $( ".cat-ninja-pic2" ).click(function() {
+        $( ".ninja-pic2" ).toggle();
+      });
+      $( ".cat-ninja-pic3" ).click(function() {
+        $( ".ninja-pic3" ).toggle();
+      });
+      $( ".cat-ninja-pic4" ).click(function() {
+        $( ".ninja-pic4" ).toggle();
+      });
+      $( ".cat-ninja-pic5" ).click(function() {
+        $( ".ninja-pic5" ).toggle();
+      });
+
+      // Source for this code: http://jsfiddle.net/LmVRZ/2/
+      // // var sourceSwap = function () {
+      // // var $this = $(this);
+      // // var newSource = $this.data('alt-src');
+      // // $this.data('alt-src', $this.attr('src'));
+      // // $this.attr('src', newSource);
+      // // }
+      // //
+      // // $(function () {
+      // //     $('img.cat-ninja-pic').click(sourceSwap, sourceSwap);
+      // // });
+
+      //Sidenote: Come back and fix this during the two week break.
+
+    });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+
+        <div class="cat-pieces">
+
+        <img class="cat-ninja-pic1" src="images/cat0.png">
+        <img class="cat-ninja-pic2" src="images/cat1.png">
+        <img class="cat-ninja-pic3" src="images/cat2.png">
+        <img class="cat-ninja-pic4" src="images/cat3.png">
+        <img class="cat-ninja-pic5" src="images/cat4.png">
+
+        <div class="ninja-pieces">
+
+
+        <div class="ninja-pic1"><img src="images/ninja0.png" data-alt-src"image6"></div>
+        <div class="ninja-pic2"><img src="images/ninja1.png" data-alt-src"image7"></div>
+        <div class="ninja-pic3"><img src="images/ninja2.png" data-alt-src"image8"></div>
+        <div class="ninja-pic4"><img src="images/ninja3.png" data-alt-src"image9"></div>
+        <div class="ninja-pic5"><img src="images/ninja4.png" data-alt-src"image10"></div>
+
+        </div>
+
+        </div>
+
+    </div>
+  </body>
+</html>
