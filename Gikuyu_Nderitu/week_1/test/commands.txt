@@ -1,0 +1,11 @@
+cd
+mkdir
+touch
+git init
+git add .
+git commit -m "Initialize repository"
+git commit -am "updated aboutMe"
+git commit -am "Added favorite movie to aboutMe"
+git log
+git revert -en 
+git commit -am "Removed 'likes' section"

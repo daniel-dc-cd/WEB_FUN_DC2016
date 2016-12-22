@@ -1,0 +1,58 @@
+//Styled by Gikuyu Nderitu
+//Date: 12/20/2016
+
+//Vars
+$accent-color: #458fec
+$secondary-color: #bab9ba
+$box-shadow: 3px 3px 5px $secondary-color
+
+//Normalization
+*
+	margin: 0
+	padding: 0
+	border: 0
+
+body > *
+	display: flex
+
+header
+	width: 100%
+	height: 150px
+	color: $accent-color
+	border-bottom: 3px solid $accent-color
+	padding: 10px
+	justify-content: center
+	flex-direction: column
+	box-shadow: none
+	transition: box-shadow 400ms ease-in
+
+	& > *
+		margin-top: 15px
+
+	&:hover
+		box-shadow: $box-shadow
+
+main
+	width: 900px
+	margin: 0 auto
+	flex-direction: column
+	align-items: center
+
+img
+	height: auto
+	width: 200px
+	margin: 5px
+	box-shadow: $box-shadow
+	transition: box-shadow 400ms ease-in
+
+	&:hover
+		cursor: pointer
+		box-shadow: 1px 1px 15px 5px darken($secondary-color,20%)
+a
+	color: $accent-color
+	text-decoration: none
+	font-size: 1.4em
+	text-align: center
+	width: 300px
+	display: block
+	margin: 20px auto

@@ -1,0 +1,198 @@
+<!--
+	Author: Gikuyu Nderitu
+	Project: Jquery-Function
+	Client: Coding-Dojo: Web-Fund Track
+-->
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="Jquery Function" content="This contains 18 of the most used Jquery Functions">
+		<link rel="stylesheet" href="app.css">
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="functions.js">
+
+		</script>
+		<title>Jquery-Functions</title>
+	</head>
+	<body>
+		<div id="container">
+			<header class="fixed">
+				<h1>jQuery Demo</h1>
+				<h3>Produced by An Atypical Developer</h3>
+			</header>
+			<a href="#" id="toggle-left" class="active page-toggle"></a>
+			<section id="mouse-mods" class="active content-container">
+				<article>
+					<button class="add-class">Hover</button>
+					<div class="description">
+						<h2>Add Class</h2>
+						<p>Hover over the button to add the class 'red' to this article's background</p>
+					</div>
+				</article>
+				<hr>
+				<article>
+					<button class="click">Click</button>
+					<div class="description">
+						<h2>Click</h2>
+						<p>Click on the button to add the class 'yellow' to this article's background</p>
+					</div>
+				</article>
+				<hr>
+				<article>
+					<button class="focus">Focus</button>
+					<div class="description">
+						<h2>Focus</h2>
+						<p>Click or mousedown on the button to toggle the class green on the parent article</p>
+					</div>
+				</article>
+			</section>
+			<section id="surface-mods" class="content-container">
+				<article>
+					<button class="html-override">Click</button>
+					<div class="description">
+						<h2>HTML</h2>
+						<p>Click the button to Overwrite the HTML</p>
+					</div>
+				</article>
+				<hr>
+				<article>
+					<button class="before">Click</button>
+					<div class="description">
+						<h2>Before</h2>
+						<p>Click on the button to make killer paragraphs appear before this one!</p>
+					</div>
+				</article>
+				<hr>
+				<article>
+					<button class="after">Click</button>
+					<div class="description">
+						<h2>After</h2>
+						<p>Click on the button to make killer paragraphs appear after this one!</p>
+					</div>
+				</article>
+				<hr>
+				<article>
+					<button class="append">Click</button>
+					<div class="description">
+						<h2>Append</h2>
+						<p>Click on the button to add html to this paragraph!</p>
+					</div>
+				</article>
+			</section>
+			<section id="data-mods" class="content-container">
+				<article>
+					<button class="data-store">Click</button>
+					<div class="description">
+						<h2>Data</h2>
+						<p>Click the button to store data into this article (for later)</p>
+						<textarea name="" id="data-input" cols="30" rows="10" placeholder="Type here to store data for later!"></textarea>
+					</div>
+				</article>
+				<hr>
+				<article>
+					<button class="val" value="Button Was Clicked">>Click<</button>
+					<div class="description">
+						<h2>Val</h2>
+						<p>Click the button to display the data that is currently entered in your upstairs neighbor text area!</p>
+					</div>
+				</article>
+				<hr>
+				<article>
+					<button class="attr">Click</button>
+					<div class="description">
+						<h2>Attr</h2>
+						<p>Click the button to display id of the root on</p>
+					</div>
+				</article>
+			</section>
+			<section id="visibility-mods" class="content-container">
+				<article>
+					<button class="hide">Click</button>
+					<div class="description">
+						<h2>Hide</h2>
+						<p>Click the button to hide this article</p>
+					</div>
+				</article>
+				<hr>
+				<article>
+					<button class="show">Click</button>
+					<div class="description">
+						<h2>Show</h2>
+						<p>Click the button to immediately display all hidden data</p>
+					</div>
+				</article>
+				<hr>
+				<article>
+					<button class="fadeout">Click</button>
+					<div class="description">
+						<h2>Fade Out</h2>
+						<p>Click the button to fadeout this article</p>
+					</div>
+				</article>
+				<hr>
+				<article>
+					<button class="fadein">Click</button>
+					<div class="description">
+						<h2>Fade In</h2>
+						<p>Click the button to fade in all hidden data over a period of 2 seconds</p>
+					</div>
+				</article>
+			</section>
+			<section id="slider-mods" class="content-container">
+				<article>
+					<button class="slideup">Click</button>
+					<div class="description">
+						<h2>Slide Up</h2>
+						<p>Click the button to slide this article up</p>
+					</div>
+				</article>
+				<hr>
+				<article>
+					<button class="slidedown">Click</button>
+					<div class="description">
+						<h2>Slide Down</h2>
+						<p>Click the button to slide the upper article down</p>
+					</div>
+				</article>
+				<hr>
+				<article>
+					<button class="slidetoggle">Click</button>
+					<div class="description">
+						<h2>Slide Toggle</h2>
+						<p>Click the button to toggle the slide feature up and down</p>
+					</div>
+				</article>
+			</section>
+			<section id="reveals" class="content-container">
+				<article>
+					<div id="toggle-background"><a href="#" class="page-toggle"></a></div>
+					<div class="description">
+						<h2>Page Toggles</h2>
+						<p>Give it up for your page toggles! They use the click property!</p>
+					</div>
+				</article>
+				<hr>
+				<article>
+					<button>Hi there!</button>
+					<div class="description">
+						<h2>Buttons</h2>
+						<p>Give it up for you buttons! They use a myriad of properties!</p>
+					</div>
+				</article>
+				<hr>
+				<article>
+					<button class="later">Click Me</button>
+					<div class="description">
+						<h2>... It's Later ...</h2>
+						<p>So ... remember that article on the data function..? Guess what, IT'S LATER!</p>
+					</div>
+				</article>
+			</section>
+			<a href="#" id="toggle-right" class="active page-toggle"></a>
+			<footer></footer>
+		</div>
+	</body>
+</html>

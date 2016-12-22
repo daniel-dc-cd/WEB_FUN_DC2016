@@ -81,23 +81,14 @@
                     var title = $("em").attr("title");
                     $("#attribute_paragraph").text(title);
                 });
-                // var value = $("input").val();
-                $("#riker_button").click(function()
+                var store = function()
                 {
-                    var value = $("input").val();
-                    // var text = $(this).text();
-                    // $("input").val(text);
-                    $("#value_paragraph").text(value);
-                });
-                // $("#data_button").click(function()
-                // {
-                //     var text = $(this).text();
-                //     $("input").val(text);
-                // });
-                $("#store_button").click(function()
+                    $("body").data("value", $("input").val());
+                }
+                $("#store_button").click(store);
+                $("#retrieve_button").click(function()
                 {
-                    // var value = $("input").val();
-                    $("body").data("stored", value);
+                    $("#retrieved_paragraph").append($("body").data("value"));
                 });
             });
         </script>
@@ -231,39 +222,39 @@
                 </p>
             </div>
             <div class="subcontents">
-                <button class = "button_left" id = "riker_button">
-                    Cmdr. Riker
+                <button class = "button_left" id = "store_button">
+                    Store!
                 </button>
                 <h3>
-                    Value Form
+                    Data and Value Form
                 </h3>
                 <form>
                     <input type = "text" name = "value" placeholder = "type text here">
                 </form>
-                <p id = "value_paragraph">
-                    This text will be replaced by the stored text!
+                <p id = "retrieved_paragraph">
+                    The data you stored was:
                 </p>
-                <button class = "button_right" id = "data_button">
-                    Lt. Cmdr. Data
+                <button class = "button_right" id = "retrieve_button">
+                    Retrieve!
                 </button>
             </div>
-            <div  class="subcontents">
+            <!-- <div  class="subcontents">
                 <button class = "button_left" id = "store_button">
                     Store!
                 </button>
                 <h3>
                     Data Form
                 </h3>
-                <!-- <form>
+                <form>
                     <input type = "text" name = "store" placeholder = "text">
-                </form> -->
+                </form>
                 <p>
                     Text Stored!
                 </p>
                 <button class = "button_right" id = "output_button">
                     Output!
                 </button>
-            </div>
+            </div> -->
             <div id="advertisement"></div>
             </div>
         </div> <!-- end of wrapper -->
