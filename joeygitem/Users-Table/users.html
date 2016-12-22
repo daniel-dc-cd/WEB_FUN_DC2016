@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Users Page</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script type="text/javascript" src="./jquery-3.1.1.min.js"></script>
+	<script>
+	$(document).ready(function(){
+
+		function addRows(forminfo){
+			console.log($("#usertbl tbody").length);
+			if( $('#usertbl tbody').length == 0){
+				$('table').append('<tbody></tbody>');
+			}
+			$('#usertbl tbody').append('<tr><td>'+forminfo[0].value+'</td><td>'+forminfo[1].value+'</td><td>'+forminfo[2].value+'</td><td>'+forminfo[3].value+'</td></tr>');
+		}
+		
+		$('form').submit(function(){
+			addRows($(this).serializeArray());
+			$('#masterform')[0].reset();
+			return false;
+		});
+	});
+	</script>
+</head>
+<body>
+<div id="wrapper">
+	<table id="usertbl">
+	<thead>
+		<tr>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Email Address</th>
+			<th>Contact #</th>
+		</tr>
+	</thead>
+</table>
+<div id="newuserinput">
+	<h1>Add User</h1>
+	<form id="masterform">
+	First Name:
+		<input type="text" name="fname" id="fname"><br>
+	Last Name:
+		<input type="text" name="lname" id="lname"><br>
+	Email Address:
+		<input type="text" name="email" id="email"><br>
+	Contact No.:
+		<input type="text" name="contactnum" id="contactnum"><br>
+	<input type="submit" value="Add User" id="addbutton">
+	</form>
+</div>
+</div>
+</body>
+</html>
