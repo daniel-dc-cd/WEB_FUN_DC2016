@@ -1,0 +1,139 @@
+//Styled by Gikuyu Nderitu
+//Date: 12/20/2016
+
+//Vars
+$accent-color: #c80000
+$compliment-color: #bab9ba
+$secondary-color: rgba(241,241,39,.8)
+$box-shadow: 3px 3px 5px $compliment-color
+
+//Normalization
+*
+	margin: 0
+	padding: 0
+	border: 0
+	overflow-x: hidden
+
+body > *
+	display: flex
+
+header
+	width: 100%
+	height: 150px
+	color: $accent-color
+	border-bottom: 3px solid $accent-color
+	padding: 10px
+	justify-content: center
+	flex-direction: column
+	box-shadow: none
+	transition: box-shadow 400ms ease-in
+	background-color: white !important
+
+	& > *
+		margin-top: 15px
+
+	&:hover
+		box-shadow: $box-shadow
+
+main
+	position: relative
+	margin: 30px auto
+	font-size: 1.5em
+	width: 95%
+	height: 65vh
+	flex-flow: row nowrap
+	justify-content: flex-start
+
+	@media screen and(max-width: 800px)
+		flex-direction: column
+
+	h2
+		margin: 15px 0
+		color: $accent-color
+
+	h2
+		width: auto
+		display: inline-block
+		color: darken($accent-color, 15%)
+		border-bottom: 5px double $compliment-color
+
+#poke-container
+	width: 60%
+	height: 100%
+	display: inherit
+	overflow: scroll
+	flex-flow: row wrap
+	margin-left: 60px
+
+
+	@media screen and(max-width: 1050px)
+		margin-left: 0
+
+	@media screen and(max-width: 950px)
+		width: 395px
+	@media screen and(max-width: 800px)
+		width: 100%
+
+		.pokemon img
+			width: 75px
+			height: 75px
+
+.pokemon
+	padding: 5px
+	margin: 25px
+	border: 11px double $accent-color
+
+	&:hover
+		cursor: pointer
+img
+	border-radius: 75px
+	width: 100px
+	height: 100px
+
+
+#pokedex
+	position: fixed
+	right: 40px
+	top: 230px
+	width: 305px
+	height: 600px
+	border: 15px solid $accent-color
+	border-bottom: 100px solid $accent-color
+
+	@media screen and(max-width: 800px)
+		position: relative
+		align-self: flex-start
+		top: auto
+		right: auto
+		width: 95%
+		border-left: 10px solid $accent-color
+		border-right: 10px solid $accent-color
+
+
+#pokedex div
+	height: 100%
+	display: flex
+	flex-direction: column
+	align-items: flex-start
+	justify-content: space-around
+
+	& > *
+		margin-left: 30px
+
+	@media screen and(max-width: 800px)
+		flex-flow: row wrap
+		align-items: center
+		justify-content: space-around
+
+		& > *
+			margin-left: auto
+
+
+a
+	color: $accent-color
+	text-decoration: none
+	font-size: 1.4em
+	text-align: center
+	width: 300px
+	display: block
+	margin: 35px auto
