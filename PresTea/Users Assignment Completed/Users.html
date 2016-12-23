@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Users Assignment</title>
+        <link rel="stylesheet" href="Users.css">
+        <script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('form').submit(function(){
+                    console.log($(this).serializeArray());
+                    var array = $(this).serializeArray()
+                    $('tbody').append(function(){
+                        var output ="<tr>"+
+                            "<td>"+array[0].value+"</td>"+
+                            "<td>"+array[1].value+"</td>"+
+                            "<td>"+array[2].value+"</td>"+
+                            "<td>"+array[3].value+"</td>"+
+                        "</tr>"
+                        return output;
+                })
+                    return false
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="maincontent">
+            <table id="myTable" style="width:50%">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email Address</th>
+                        <th>Contact No.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>Add User</h1>
+            <form action="process.php" method="post">
+            First name <input type="text" name="first_name"><br>
+            Last name <input type="text" name="last_name"><br>
+            Email <input type="text" name="email"><br>
+            Contact No. <input type="text" name="contact"><br>
+            <br>
+            <input type="submit" value="Add User">
+            </form>
+        </div>
+    </body>
+</html>
