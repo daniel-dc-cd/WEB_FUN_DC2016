@@ -4,7 +4,7 @@
   /*outline: 2px dashed red;*/
 }
 .wrapper{
-  padding: 20px;
+  padding: 50px;
   margin: 0 auto;
   width: 970px;
   background-color: #d4d1b0;
@@ -37,4 +37,19 @@ h1{
   position: relative;
   left: 180px;
   bottom: 28px;
+}
+.blue{
+  background-color: #9696ff;
+}
+.red{
+  background-color: #f18b8b;
+}
+.button{
+  height: 46px;
+  width: 135px;
+  border-radius: 10px;
+  position: relative;
+  left: 400px;
+  top: 17px;
+  background-color: hotpink;
 }
