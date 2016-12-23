@@ -1,0 +1,84 @@
+<!-- Ekapob Ukritnukun -->
+<!-- ThaiGQ@gmail.com -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="Users.css">
+        <script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+        </script>
+        <script type = "text/javascript">
+            $(document).ready(function()
+            {
+                function addUsers(formData)
+                {
+                    $("tbody").append("<tr><td>" + formData[0].value +  "</td><td>" + formData[1].value +  "</td><td>" + formData[2].value + "</td><td>" + formData[3].value + "</td></tr>");
+                }
+                $("button").click(function()
+                {
+                    addUsers($("input").serializeArray());
+                    // console.log($("input").serializeArray());
+                    return false;
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <div id = "wrapper">
+            <div id = "header"></div> <!-- end of div header-->
+            <div id = "navigation"></div> <!-- end of div navigation-->
+            <div id = "main_content">
+                <div id = "users_add">
+                    <h2>
+                        Add User
+                    </h2>
+                    <form>
+                        <label id = "first_name">
+                            First Name:  <input type = "text" name = "first_name" placeholder = "First Name">
+                        </label>
+                        <label>
+                            Last Name:  <input type = "text" name = "last_name" placeholder = "Last Name">
+                        </label>
+                        <label>
+                            Email Address:  <input type = "text" name = "email" placeholder = "Email Address">
+                        </label>
+                        <label>
+                            Contact Number:  <input type = "text" name = "contact" placeholder = "Contact Number">
+                        </label>
+                        <button>
+                            Add User
+                        </button>
+                    </form>
+                </div> <!-- end of users_add -->
+                <div id = "users_table">
+                    <h2>
+                        List of Users
+                    </h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    First Name
+                                </th>
+                                <th>
+                                    Last Name
+                                </th>
+                                <th>
+                                    Email Address
+                                </th>
+                                <th>
+                                    Contact #
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div> <!-- end of users_table -->
+            </div> <!-- end of div main_content -->
+            <div id = "footer"></div> <!-- end of div footer -->
+        </div> <!-- end of div wrapper-->
+    </body>
+</html>

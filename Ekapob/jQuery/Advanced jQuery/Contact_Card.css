@@ -1,0 +1,96 @@
+/*Ekapob Ukritnukun*/
+/*ThaiGQ@gmail.com*/
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper
+{
+    /*outline: 1px solid red;*/
+    height: 930px;
+    width: 970px;
+    background-color: black;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+    #main_content
+    {
+        /*outline: 1px solid red;*/
+        height: 890px;
+        width: 930px;
+        background-color: white;
+        padding: 20px;
+    }
+
+    #users_add
+    {
+        /*outline: 1px solid red;*/
+        height: 450px;
+        width: 443px;
+        display: inline-block;
+        vertical-align: top;
+        background-color: white;
+        padding: 10px;
+    }
+
+    #users_add h2
+    {
+        /*outline: 1px solid red;*/
+        height: 30px;
+        width: 333px;
+        border-bottom: 3px solid steelblue;
+        padding: 10px;
+    }
+
+    #users_add label
+    {
+        /*outline: 1px solid red;*/
+        height: 20px;
+        width: 353px;
+        display: block;
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    #description
+    {
+        height: 200px;
+        width: 350px;
+    }
+
+    #users_add button
+    {
+        /*outline: 1px solid red;*/
+        font-size: 15px;
+        position: relative;
+        top: 250px;
+        border-radius: 3px;
+    }
+
+    #contact_cards
+    {
+        /*outline: 1px solid red;*/
+        height: 870px;
+        width: 443px;
+        display: inline-block;
+        background-color: white;
+        padding: 10px;
+    }
+
+    #contact_cards div
+    {
+        outline: 1px solid black;
+        height: 80px;
+        width: 430;
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    #contact_cards p
+    {
+        word-wrap: break-word;
+    }
