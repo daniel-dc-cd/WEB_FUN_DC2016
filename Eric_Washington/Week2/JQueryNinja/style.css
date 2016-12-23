@@ -1,0 +1,44 @@
+/*Container Styles*/
+
+.container {
+  width: 935px;
+  height: 580px;
+  background-color: lightgrey;
+  margin: 0 auto;
+}
+
+.floating-box {
+    display: inline-block;
+    width: auto;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+
+img {
+  width: auto;
+  height: 200px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+#button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px 24px;
+    margin: 10px 20px;
+}
+
+.ninjacontiner {
+  padding: 0px 0px 0px 85px;
+}

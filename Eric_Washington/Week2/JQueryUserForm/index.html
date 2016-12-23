@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JQuery User Form</title>
+    <style>
+      table, th, td {
+          border: 1px solid black;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+           $(document).ready(function(){
+             // alert('hello!');
+             $('#form1').submit(function(){
+               console.log($(this).serialize());
+
+               var fields = $(this).serializeArray();
+               var $table = $("#results_table");
+
+               // add empty row
+               $table.append('<tr></tr>');
+
+               // for each field from form -> add table cell with field value
+               $.each(fields, function(i, field){
+                   $table.find('tr:last-child').append('<td>' + field.value + '</td>');
+               });
+
+               return false
+             });
+
+            //  $('btn').click(function(){
+            //    $('form1').submit();
+            //  });
+
+           });
+       </script>
+  </head>
+  <body>
+    <table id="results_table">
+      <tr>
+        <th>First Name:</th>
+        <th>Last Name:</th>
+        <th>Email Address:</th>
+        <th>Phone Number:</th>
+      </tr>
+    </table>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <h1 style="text-decoration:underline">Add Users</h1>
+    <form id="form1" action="" mehod="post">
+      First Name <input type="text" name="first_name"><br>
+      <br>
+      Last Name <input type="text" name="last_name"><br>
+      <br>
+      Email <input type="text" name="email"><br>
+      <br>
+      Contact Number <input type="text" name="phone_number"><br>
+      <br>
+      <input type="submit" name="" value="submit"><br>
+    </form>
+
+  </body>
+</html>

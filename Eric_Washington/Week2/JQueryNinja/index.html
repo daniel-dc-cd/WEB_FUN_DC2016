@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JQuery Ninja</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#image1').click(function(){
+                $('#image1').hide();
+            });
+            $('#image2').click(function(){
+                $('#image2').hide();
+            });
+            $('#image3').click(function(){
+                $('#image3').hide();
+            });
+            $('#image4').click(function(){
+                $('#image4').hide();
+            });
+            $('#image5').click(function(){
+                $('#image5').hide();
+            });
+            $('#image6').click(function(){
+                $('#image6').hide();
+            });
+            $('#image7').click(function(){
+                $('#image7').hide();
+            });
+            $('#image8').click(function(){
+                $('#image8').hide();
+            });
+            $("#button").click(function(){
+              $("img").show();
+            });
+        });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+
+      <h2>Dissapering Ninja</h2>
+
+      <div class="ninjacontiner">
+
+        <div class="floating-box"><img src="images/ninja.png" id="image1" alt=""></div>
+        <div class="floating-box"><img src="images/ninja.png" id="image2" alt=""></div>
+        <div class="floating-box"><img src="images/ninja.png" id="image3" alt=""></div>
+        <div class="floating-box"><img src="images/ninja.png" id="image4" alt=""></div>
+        <div class="floating-box"><img src="images/ninja.png" id="image5" alt=""></div>
+        <div class="floating-box"><img src="images/ninja.png" id="image6" alt=""></div>
+        <div class="floating-box"><img src="images/ninja.png" id="image7" alt=""></div>
+        <div class="floating-box"><img src="images/ninja.png" id="image8" alt=""></div>
+
+      </div>
+
+      <button id="button">Restore Your Ninjas</button>
+
+    </div>
+  </body>
+</html>

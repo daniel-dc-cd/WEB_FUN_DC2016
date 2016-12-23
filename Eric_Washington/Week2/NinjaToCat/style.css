@@ -1,0 +1,23 @@
+/*Conatiner Styles*/
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: lightgrey;
+  margin: 0 auto;
+}
+
+.cat-pieces {
+  padding: 120px 0px 0px 164px;
+
+}
+
+.ninja-pieces {
+  padding: 0px 0px 0px 0px;
+  position: absolute;
+  top: 127px;
+}
+
+.ninja-pic1, .ninja-pic2, .ninja-pic3, .ninja-pic4, .ninja-pic5 {
+  display: none;
+}
