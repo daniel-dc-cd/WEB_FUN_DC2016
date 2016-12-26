@@ -2,6 +2,60 @@
     margin: 0;
     padding: 0;
 }
+<<<<<<< HEAD
+* :hover{
+  outline: 5px solid red;
+}
+.wrapper{
+  display: inline-block;
+}
+#bull li:before{
+  content: ">>";
+  color: yellow;
+}
+
+.header {
+    background-color: #265175;
+}
+img{
+  height: 120px;
+}
+.textsize {
+  color: white;
+}
+.list{
+  height: inherit;
+  list-style: none;
+}
+.side{
+  display: inline-block;
+  position: relative;
+  left: 85%;
+  bottom: 100px;
+  background-color: #444444;
+  padding: 20px;
+  width: 15em;
+  border-radius: 20px;
+}
+input[type=submit]{
+  background-color: blue;
+
+}
+#bull{
+  width: 20%;
+  color:white;
+  padding: 39px;
+  display: inline-block;
+  position: relative;
+  left: 20em;
+  vertical-align: top;
+  text-decoration: underline;
+  list-style-type: none;
+}
+
+#down1{
+  height: 1px;
+=======
 
 * :hover {
     outline: 5px solid red;
@@ -87,6 +141,7 @@ input[type=submit] {
 
 #down1 {
     height: 1px;
+>>>>>>> e44ba631d5b432bd02352e24b566b16f42acf4db
 }
 
 p#yellow {
@@ -118,6 +173,10 @@ p#yellow {
 }
 
 form {
+<<<<<<< HEAD
+
+=======
+>>>>>>> e44ba631d5b432bd02352e24b566b16f42acf4db
     display: inline-block;
     width: 20%;
     height: 30px;
@@ -127,6 +186,49 @@ form {
 
 a.yellow {
     color: #898832;
+<<<<<<< HEAD
+  }
+#yellow {
+    position: relative;;
+    left: 20%;
+}
+.words{
+  color: white;
+  display: inline-block;
+  width: 31em;
+  position: relative;
+  left: 35em;
+  bottom: 200%;
+  padding: 3%;
+}
+.starting{
+  vertical-align: top;
+  border-top: 5px solid #265175;
+  display: inline-block;
+  width: 20%;
+  position: relative;
+  left: 37em;
+  margin: 1%;
+}
+#start{
+  text-align: center;
+}
+.apps{
+  vertical-align: top;
+  display: inline-block;
+  width: 20%;
+  position: relative;
+  left: 39em;
+  margin: 1%;
+  border-top: 5px solid #265175;
+
+}
+#app {
+  text-align: center;
+  padding: 2%;
+  position: relative;
+  top: 100%;
+=======
 }
 
 #yellow {
@@ -174,6 +276,7 @@ a.yellow {
     padding: 2%;
     position: relative;
     top: 100%;
+>>>>>>> e44ba631d5b432bd02352e24b566b16f42acf4db
 }
 
 .footer {
@@ -189,6 +292,23 @@ a.yellow {
     /* IE6-9 */
 }
 
+<<<<<<< HEAD
+.help{
+  display: inline-block;
+}
+.help li{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 39px;
+  position: relative;
+  left: 100%;
+  opacity: 5%;
+}
+.rights{
+  text-align: center;
+}
+=======
 .help {
     display: inline-block;
 }
@@ -208,4 +328,5 @@ a.yellow {
 }
 
 
+>>>>>>> e44ba631d5b432bd02352e24b566b16f42acf4db
 /*&ordm;*/
