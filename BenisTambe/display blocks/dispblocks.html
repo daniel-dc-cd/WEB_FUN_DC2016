@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Displaying Blocks</title>
+    <link rel="stylesheet" href="newblocks.css" media="screen" title="no title">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('img').click(function(){
+          $(this).hide();
+      })
+      $('button').click(function() {
+        $('img').show();
+      })
+
+      })
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+       <div class="header">
+        <img class="nobor" src="github.jpg" alt="gitpic" />
+        <h1>Display our Blocks</h1>
+        <img class="nobor" id="move" src="catandninja.png" alt="catandninja" />
+       </div>
+       <div class="row1">
+        <img class="blue" src="dojocat.jpg" alt="dojocat img" />
+        <img class="red" src="heisencat.png" alt="heisen cat" />
+        <img class="blue" src="linkcat.png" alt="link cat" />
+        <img class="red" src="ironcat.png" alt="iron cat pic" />
+        <img class="blue" src="defunktocat.png" alt="def funk cat" />
+      </div>
+      <div class="row2">
+       <img class="blue" src="coder2.jpg" alt="coder2 pic" />
+       <img class="red" src="riddlocat.png" alt="ridiculouscat" />
+       <img class="blue" src="chellocat.jpg" alt="chello cat" />
+       <img class="red" src="stormtroopocat.png" alt="stormtrp" />
+       <img class="blue" src="visionary.jpg" alt="visioncat" />
+     </div>
+     <div class="row3">
+      <img class="blue" src="cherry.jpg" alt="cherry" />
+      <img class="red" src="oktobercat.png" alt="oct cat" />
+      <img class="blue" src="mario.png" alt="mario cat" />
+      <img class="red" src="cooler.png" alt="coolercat" />
+      <img class="blue" src="jean-luc-picat.jpg" alt="jean luc" />
+    </div>
+    <div class="row4">
+     <img class="blue" src="aidorucat.png" alt="aidurocat" />
+     <img class="getinplace red" src="domo-cat.png" alt="domocat pic" />
+     <img class="getinplace blue" src="kantana.jpg" alt="katana cat" />
+     <img class="getinplace red" src="daftpunk.gif" alt="gif img" />
+     <img class="getinplace blue" src="codercat.jpg" alt="codercat pic" />
+   </div>
+   <button class="button" type="button" name="button">Restore</button>
+    </div>
+  </body>
+</html>

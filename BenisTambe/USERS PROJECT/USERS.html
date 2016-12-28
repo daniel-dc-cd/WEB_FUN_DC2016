@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Call Backs</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style media="screen">
+      body{
+        width: 970px;
+        margin: auto;
+        height: auto;
+        background-color: #b5618b;
+      }
+      h1{
+        display: inline-block;
+        margin-bottom: 4px solid;
+      }
+        td{
+          border: 2px solid;
+          width: 189px;
+        }
+        .tablue{
+          margin-top: 59px;
+        }
+      label{
+          display: block;
+          margin: 37px;
+          font-size: 18px;
+          font-weight: bold;
+        }
+        button{
+          height: 57px;
+          width: 125px;
+          border-radius: 15px;
+          position: relative;
+          left: 36px;
+        }
+        input[type="text"]{
+          width: 176px;
+          height: 43px;
+          border-radius: 10px;
+          margin-left: 61px;
+        }
+        input#long{
+          position: relative;
+          right: 36px;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+      $(document).ready(function(){
+        $('#form1').submit(function(){
+          var array = $(this).serializeArray()
+          $('tbody').append(function (){
+            var out = "<tr>"+
+            "<td>"+array[0].value+"</td>"+
+            "<td>"+array[1].value+"</td>"+
+            "<td>"+array[2].value+"</td>"+
+            "<td>"+array[3].value+"</td>"+
+
+            "</tr>"
+            return out;
+          });
+          return false
+      });
+
+    });
+    </script>
+  </head>
+  <body>
+
+    <div >
+      <h1>Add User:</h1>
+      <form id="form1" action="" method="post">
+      <label>
+          First Name:<input class="inp" type="text" name="first_name" placeholder="First Name">
+      </label>
+      <label>
+          Last Name:<input class="inp"  type="text" name="last_name" placeholder="Last Name">
+      </label>
+      <label>
+          Email Adderess:<input class="inp"  id="long" type="text" name="email" placeholder="Email Address">
+      </label>
+      <label>
+          Phone NO. :<input class="inp"  type="text" name="first_name" placeholder="Phone #">
+      </label>
+      <input type="submit" value="submit">
+    </form>
+    </div>
+    <div class="tablue">
+      <table>
+        <thead>
+          <tr>
+            <td><h3>First Name</h3></td>
+            <td><h3>Last Name</h3></td>
+            <td><h3>Email Address</h3></td>
+            <td><h3>Contact #</h3></td>
+          </tr>
+          <tbody>
+
+          </tbody>
+        </thead>
+      </table>
+    </div>
+  </body>
+</html>

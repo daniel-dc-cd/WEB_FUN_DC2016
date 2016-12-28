@@ -1,0 +1,192 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    /*outline: 1px dashed red;*/
+}
+
+.wrapper {
+    padding: 20px;
+    width: 970px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: #E2DFDA;
+    padding: 20px 10px 0 10px;
+}
+
+#corp {
+    background-color: #1F538C;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.searchbox {
+    position: relative;
+    left: 645px;
+    bottom: 45px
+}
+
+img.searchicon {
+    position: relative;
+    left: 257px;
+    bottom: 26px;
+}
+
+li.dot {
+    display: inline-block;
+    list-style-type: none;
+    padding: 13px;
+    position: relative;
+    left: 308px;
+    border: 1px solid;
+    margin-left: -5px;
+}
+
+.body {
+    background-color: #1F4167;
+    padding: 2px;
+}
+
+h2 {
+    background-color: #1E4F86;
+    position: relative;
+    bottom: 8px;
+    margin: -8px;
+    color: white;
+    padding: 20px;
+}
+input#form_name{
+  border-radius: 12px;
+}
+input#form_password{
+  border-radius: 12px
+}
+input.tftextinput>{
+  border-radius: 12px
+}
+.form {
+    display: inline-block;
+    width: 200px;
+    height: 277px;
+    margin: 40px;
+    border: 1px solid #CAC9C7;
+    padding: 20px 10px 0px;
+    position: relative;
+    bottom: 109px;
+    background-color: #D4DBE4;
+}
+.block{
+  display: inline-block;
+}
+
+#signin {
+    background-color: #343434;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.picture {
+    display: inline-block;
+    height: 406px;
+}
+
+.mainpic {
+    height: 398px;
+}
+
+p.word {
+    border: 2px solid #CAC9C7;
+    width: 135px;
+    height: 47px;
+    padding: 23px 45px 0;
+    position: relative;
+    bottom: 140px;
+    left: 38px;
+    color: white;
+}
+
+.update {
+    background-color: #D4DBE3;
+    height: 16px;
+    padding: 20px;
+}
+
+.class {}
+
+.bluecolor {
+    background-color: #1F4167;
+    padding: 20px
+}
+
+.dominion {
+    border: 2px solid #CAC9C7;
+    display: inline-block;
+    width: 216px;
+    padding: 20px;
+    height: 176px;
+    position: relative;
+    background-color: #CAC9C7;
+}
+
+.green {
+    border: 2px solid #CAC9C7;
+    display: inline-block;
+    vertical-align: top;
+    width: 227px;
+    padding: 20px;
+    position: relative;
+    left: 2px;
+    height: 180px;
+    background-color: #CAC9C7;
+}
+
+.promise {
+    border: 2px solid #CAC9C7;
+    display: inline-block;
+    width: 225px;
+    padding: 20px;
+    position: relative;
+    left: 5px;
+    vertical-align: top;
+    background-color: #CAC9C7;
+}
+
+.footer {
+    background-color: #D3CDC4;
+}
+
+footer.footer * {
+    box-sizing: border-box;
+}
+
+li.foot.down {
+    vertical-align: top;
+}
+
+.foot {
+    padding: 20px;
+    width: 93px;
+    height: 0px;
+    display: inline-block;
+    border-right: 1px solid;
+    line-height: 19px;
+}
+
+.under {
+    position: relative;
+    left: 680px;
+    bottom: 12px;
+}
+
+.imgs {
+    height: 100px;
+    width: auto;
+}
