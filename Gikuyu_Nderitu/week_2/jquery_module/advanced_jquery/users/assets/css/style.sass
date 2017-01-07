@@ -4,7 +4,7 @@
 //Vars
 $accent-color: #458fec
 $compliment-color: #bab9ba
-$
+$secondary-color: rgba(241,241,39,.8)
 $box-shadow: 3px 3px 5px $compliment-color
 
 //Normalization
@@ -36,38 +36,78 @@ header
 main
 	margin: 30px auto
 	font-size: 1.5em
-	width: 1400px
+	width: 75%
 	flex-flow: column
 	justify-content: space-between
 
+	h2,label
+		margin: 15px 0
+		color: $accent-color
+
+	h2
+		width: 300px
+		display: inline-block
+		color: darken($accent-color, 15%)
+		border-bottom: 5px double $compliment-color
+
 table
 	width: 100%
-	border: 2px solid #777
+	border: 2px solid darken($compliment-color, 15%)
 	margin: 10px auto
 
-	th
-		border-bottom: 2px double #555
-
 	th, td
-		border-right: 1px solid #000
+		border-right: 3px solid $compliment-color
 
 		&:nth-of-type(n+4)
 			border-right: none
 
+	th
+		border-bottom: 3px double $compliment-color
+	td
+		border-bottom: 2px solid $compliment-color
+
+	tr:last-of-type td
+		border-bottom: none
 
 form
 	display: flex
 	flex-direction: column
 	font-size: 1.3em
 
+label
+	margin-right: 30px
+
 
 input
+	font-size: .95em
 	border-bottom: 1px double $accent-color
 	border-right: 1px double $accent-color
+	border-bottom-right-radius: 17px
+	transition: border 200ms linear
+
+	&:focus
+		outline: $secondary-color groove thick
 
 	&:hover
-		border-bottom: 1px double $accent-color
-		border-right: 1px double $accent-color
+		border-bottom: 6px double $secondary-color
+		border-right: 6px double $secondary-color
+
+#submit
+	background: $accent-color
+	color: white
+	display: inline-block
+	align-self: flex-start
+	margin: 0
+	border: none
+	padding: 5px 20px
+	border-radius: 7px
+	outline: none
+	box-shadow: 1px 1px 5px #bbb
+	transition: box-shadow 300ms ease-in-out
+
+	&:hover
+		cursor: pointer
+		box-shadow: 3px 3px 5px #bbb
 
 
 a

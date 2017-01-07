@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/functions.js"></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <iframe class="splash-video" width="100vw" height="100vh" src="https://www.youtube.com/embed/6eZcEwRBBfo?autoplay=0&amp;controls=0&amp;loop=0&amp;showinfo=0&amp;rel=0" frameborder="0" allowfullscreen></iframe>
+      <div class="video-cover"></div>
+      <div class="data-container">
+        <div class="info-area">
+          <div class="precip-info">
+            <!--p precipitation goes here-->
+            <div class="level-1" id="precip-icon">
+              <div class="icon-track">
+                <div class="icon-walk-container">
+                  <div class="icon-rotate-container"><i class="wi wi-day-rain" id="p-icon"></i></div>
+                </div>
+              </div>
+            </div>
+            <div class="level-2" id="precip-descript">
+              <h3>Weather Description:</h3>
+              <p id="descrip"></p>
+            </div>
+          </div>
+          <div class="refresh-button"><i class="wi wi-refresh" id="refresh-icon"></i></div>
+          <div class="temp-info">
+            <div class="level-1" id="temp-value">
+              <h2 id="value"></h2>
+            </div>
+            <div class="level-2" id="temp-slider">
+              <div class="slide-container">
+                <div class="slide-text-container"><span>C</span><span></span><span>F</span></div>
+                <div class="slide-button faren"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

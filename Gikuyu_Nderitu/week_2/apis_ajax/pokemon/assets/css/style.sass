@@ -1,0 +1,76 @@
+//Styled by Gikuyu Nderitu
+//Date: 12/20/2016
+
+//Vars
+$accent-color: #458fec
+$compliment-color: #bab9ba
+$secondary-color: rgba(241,241,39,.8)
+$box-shadow: 3px 3px 5px $compliment-color
+
+//Normalization
+*
+	margin: 0
+	padding: 0
+	border: 0
+
+body > *
+	display: flex
+
+header
+	width: 100%
+	height: 150px
+	color: $accent-color
+	border-bottom: 3px solid $accent-color
+	padding: 10px
+	justify-content: center
+	flex-direction: column
+	box-shadow: none
+	transition: box-shadow 400ms ease-in
+	background-color: white !important
+
+	& > *
+		margin-top: 15px
+
+	&:hover
+		box-shadow: $box-shadow
+
+main
+	position: relative
+	margin: 30px auto
+	font-size: 1.5em
+	width: 80%
+	flex-flow: row wrap
+	justify-content: space-around
+
+	h2
+		margin: 15px 0
+		color: $accent-color
+
+	h2
+		width: auto
+		display: inline-block
+		color: darken($accent-color, 15%)
+		border-bottom: 5px double $compliment-color
+
+.pokemon
+	padding: 30px
+	margin-bottom: 25px
+	border: 11px double $accent-color
+
+img
+	border-radius: 75px
+	width: 150px
+	height: 150px
+
+	&:hover
+		cursor: pointer
+
+
+a
+	color: $accent-color
+	text-decoration: none
+	font-size: 1.4em
+	text-align: center
+	width: 300px
+	display: block
+	margin: 35px auto

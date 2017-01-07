@@ -30,24 +30,36 @@ header {
 main {
   margin: 30px auto;
   font-size: 1.5em;
-  width: 1400px;
+  width: 75%;
   -webkit-flex-flow: column;
   -ms-flex-flow: column;
   flex-flow: column;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between; }
+  main h2, main label {
+    margin: 15px 0;
+    color: #458fec; }
+  main h2 {
+    width: 300px;
+    display: inline-block;
+    color: #1568cf;
+    border-bottom: 5px double #bab9ba; }
 
 table {
   width: 100%;
-  border: 2px solid #777;
+  border: 2px solid #949294;
   margin: 10px auto; }
-  table th {
-    border-bottom: 2px double #555; }
   table th, table td {
-    border-right: 1px solid #000; }
+    border-right: 3px solid #bab9ba; }
     table th:nth-of-type(n+4), table td:nth-of-type(n+4) {
       border-right: none; }
+  table th {
+    border-bottom: 3px double #bab9ba; }
+  table td {
+    border-bottom: 2px solid #bab9ba; }
+  table tr:last-of-type td {
+    border-bottom: none; }
 
 form {
   display: -webkit-flex;
@@ -58,9 +70,38 @@ form {
   flex-direction: column;
   font-size: 1.3em; }
 
+label {
+  margin-right: 30px; }
+
 input {
+  font-size: .95em;
   border-bottom: 1px double #458fec;
-  border-right: 1px double #458fec; }
+  border-right: 1px double #458fec;
+  border-bottom-right-radius: 17px;
+  transition: border 200ms linear; }
+  input:focus {
+    outline: rgba(241, 241, 39, 0.8) groove thick; }
+  input:hover {
+    border-bottom: 6px double rgba(241, 241, 39, 0.8);
+    border-right: 6px double rgba(241, 241, 39, 0.8); }
+
+#submit {
+  background: #458fec;
+  color: white;
+  display: inline-block;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  margin: 0;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 7px;
+  outline: none;
+  box-shadow: 1px 1px 5px #bbb;
+  transition: box-shadow 300ms ease-in-out; }
+  #submit:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 5px #bbb; }
 
 a {
   color: #458fec;

@@ -1,0 +1,53 @@
+doctype
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		meta(name="viewport" content="width=device-width, height=device-height, initial-scale=1")
+		link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css")
+		link(rel="stylesheet" href="assets/css/style.css")
+		script(src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous")
+		script(type="text/javascript" src="assets/js/functions.js")
+		title Weather App
+	body
+
+		.container
+
+			iframe(width="100vw", height = "100vh", class="splash-video", src="https://www.youtube.com/embed/6eZcEwRBBfo?autoplay=0&controls=0&loop=0&showinfo=0&rel=0", frameborder = "0", allowfullscreen)
+
+			.video-cover
+
+			.data-container
+
+				.info-area
+
+					.precip-info
+						//p precipitation goes here
+
+						.level-1#precip-icon
+							.icon-track
+								.icon-walk-container
+									.icon-rotate-container
+										i.wi.wi-day-rain#p-icon
+
+						.level-2#precip-descript
+
+							h3 Weather Description:
+
+							p#descrip
+
+					.refresh-button
+						i.wi.wi-refresh#refresh-icon
+
+					.temp-info
+
+						.level-1#temp-value
+
+							h2#value
+
+						.level-2#temp-slider
+							.slide-container
+								.slide-text-container
+									span C
+									span
+									span F
+								.slide-button.faren

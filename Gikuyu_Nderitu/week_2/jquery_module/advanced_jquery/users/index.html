@@ -15,27 +15,31 @@
     </header>
     <main>
       <table id="user-table">
-        <tr>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Email Address</th>
-          <th>Contact #</th>
-        </tr>
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email Address</th>
+            <th>Contact #</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
       </table>
       <h2>Add Users</h2>
       <form id="add-user">
         <label>First Name:
-          <input type="text" name="first_name" required>
+          <input class="focus" id="first" type="text" name="first_name" required>
         </label>
         <label for="">Last Name
-          <input type="text" name="last" required>
+          <input class="focus" id="last" type="text" name="last" required>
         </label>
         <label for="">Email Address:
-          <input type="email" name="email_address" required>
+          <input class="focus" id="email" type="email" name="email_address" required>
         </label>
         <label for="">Contact No.:
-          <input type="text" name="phone_number">
+          <input class="focus" id="number" type="text" name="phone_number">
         </label>
+        <input id="submit" type="submit" value="Submit">
       </form>
     </main><a href="#">hAck3d by Gikuyu Nderitu - Atypical Dev</a>
   </body>
