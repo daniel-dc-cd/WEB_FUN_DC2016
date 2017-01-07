@@ -1,4 +1,5 @@
 /*CSS reset settings here*/
+<<<<<<< HEAD
 *{
  margin: 0px;
  padding: 0px;
@@ -40,4 +41,56 @@
  width: 660px;
  background-color: purple;
  margin: 10px;
+=======
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    height: 550px;
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 30px;
+}
+
+#header {
+    height: 150px;
+    background-color: green;
+}
+
+#navigation {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+    margin: 10px 0px;
+}
+
+#main_content {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    position: relative;
+    left: 250px;
+    bottom: 325px;
+    margin: 10px 0px;
+}
+
+.subcontents {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    display: inline-block;
+    margin: 10px 0px 10px 10px;
+}
+
+#advertisement {
+    height: 120px;
+    width: 680px;
+    background-color: purple;
+    margin: 10px;
+>>>>>>> e44ba631d5b432bd02352e24b566b16f42acf4db
 }

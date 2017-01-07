@@ -21,13 +21,24 @@
  width: 200px;
  background-color: blue;
  display: inline-block;
+<<<<<<< HEAD
+=======
+ position: relative;
+ bottom: 75px;
+>>>>>>> e44ba631d5b432bd02352e24b566b16f42acf4db
 }
 #main_content{
  height: 400px;
  width: 700px;
  background-color: red;
  display: inline-block;
+<<<<<<< HEAD
  float: right;
+=======
+ position: relative;
+ left: 30px;
+
+>>>>>>> e44ba631d5b432bd02352e24b566b16f42acf4db
  padding: 10px;
 }
 .subcontents{
@@ -43,4 +54,8 @@
  background-color: purple;
  display: inline-block;
  margin: 15px 5px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e44ba631d5b432bd02352e24b566b16f42acf4db

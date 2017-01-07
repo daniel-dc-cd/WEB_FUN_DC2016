@@ -1,0 +1,65 @@
+<!-- Ekapob Ukritnukun -->
+<!-- ThaiGQ@gmail.com -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="Contact_Card.css">
+        <script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+        </script>
+        <script type = "text/javascript">
+            $(document).ready(function()
+            {
+                $(document).on("click", ".card", function()
+                {
+                    var location = $(this).children("p");
+                    var placeholder = location.html();
+                    $(this).children("h1").toggle();
+                    location.html(location.data("description"));
+                    location.data("description", placeholder);
+                });
+                function addUsers(formData)
+                {
+                    $("#contact_cards").append("<div class = 'card'><h1>" + formData[0].value + " " + formData[1].value + "</h1><p data-description = " + formData[2].value + ">Click for description!</p></div>");
+                }
+                $("button").click(function()
+                {
+                    addUsers($("form").serializeArray());
+                    return false;
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <div id = "wrapper">
+            <div id = "header"></div> <!-- end of div header-->
+            <div id = "navigation"></div> <!-- end of div navigation-->
+            <div id = "main_content">
+                <div id = "users_add">
+                    <h2>
+                        Add User
+                    </h2>
+                    <form>
+                        <label>
+                            First Name:  <input type = "text" name = "first_name" placeholder = "First Name">
+                        </label>
+                        <label>
+                            Last Name:  <input type = "text" name = "last_name" placeholder = "Last Name">
+                        </label>
+                        <label>
+                            Description:  <textarea id = "description" name = "description" placeholder = "Enter Something Funny!"></textarea>
+                        </label>
+                        <button>
+                            Add User
+                        </button>
+                    </form>
+                </div> <!-- end of users_add -->
+                <div id = "contact_cards">
+                </div> <!-- end of contact_cards -->
+            </div> <!-- end of div main_content -->
+            <div id = "footer"></div> <!-- end of div footer -->
+        </div> <!-- end of div wrapper-->
+    </body>
+</html>

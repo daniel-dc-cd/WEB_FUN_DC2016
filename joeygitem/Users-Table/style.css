@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	/*outline: black dotted;*/
+	margin: 0 auto;
+	width: 970px;
+	height: 100%;
+}
+table{
+	padding: 5px;
+	margin: 0 auto;
+	border: 1px black solid;
+	width: 500px;
+	border-radius: 4px;
+}
+td{
+	/*outline: black dotted;*/
+	border: 1px black solid;
+	width: 125px;
+	text-align: center;
+}
+h1{
+	border-bottom: 2px gray solid;
+}
+#newuserinput{
+	/*outline: dotted yellow;*/
+	height: 300px;
+}
+#masterform{
+	/*outline: red dotted;*/
+	width: 500px;
+	padding: 3px;
+	margin: 0 auto;
+	color: white;
+	background-color: black;
+	border-radius: 4px;
+}
+form input{
+	color: white;
+	background-color: black;
+	border-color: white;
+	margin: 5px;
+}
+#addbutton{
+	background-color: black;
+	color: white;
+	border-color: white;
+	font-family: Helvetica;
+	border-radius: 4px;
+}

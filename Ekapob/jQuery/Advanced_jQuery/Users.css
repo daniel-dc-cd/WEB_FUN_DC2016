@@ -1,0 +1,96 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper
+{
+    /*outline: 1px solid red;*/
+    height: 930px;
+    width: 970px;
+    background-color: black;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+    #main_content
+    {
+        /*outline: 1px solid red;*/
+        height: 890px;
+        width: 930px;
+        background-color: steelblue;
+        padding: 20px;
+    }
+
+    #users_table
+    {
+        /*outline: 1px solid red;*/
+        height: 580px;
+        width: 910px;
+        background-color: white;
+        padding: 10px;
+    }
+
+    #users_table h2
+    {
+        /*outline: 1px solid red;*/
+        height: 50px;
+        width: 890px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #users_table th
+    {
+        outline: 1px solid black;
+        height: 20px;
+        width: 205px;
+        padding: 10px;
+    }
+
+    #users_table td
+    {
+        outline: 1px dotted black;
+        height: 20px;
+        width: 100px;
+        text-align: left;
+        padding: 10px;
+    }
+
+    #users_add
+    {
+        /*outline: 1px solid red;*/
+        height: 270px;
+        width: 910px;
+        background-color: white;
+        padding: 10px;
+    }
+
+    #users_add h2
+    {
+        /*outline: 1px solid red;*/
+        height: 30px;
+        width: 333px;
+        border-bottom: 3px solid steelblue;
+        padding: 10px;
+    }
+
+    #users_add label
+    {
+        /*outline: 1px solid red;*/
+        height: 20px;
+        width: 353px;
+        display: block;
+        text-align: right;
+        margin-top: 10px;
+    }
+
+    #users_add button
+    {
+        /*outline: 1px solid red;*/
+        font-size: 15px;
+        position: relative;
+        left: 287px;
+        top: 50px;
+        border-radius: 3px;
+    }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ninja To Cat</title>
+    <style media="screen">
+      .case{
+        display: inherit;
+        width: 300px;
+        height: 96px;
+        margin: 7px;
+      }
+      body{
+        width: 970px;
+        margin: auto;
+        background: black;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+      $('img.case').click(function(){
+        var tag = $(this);
+        var altSource = tag.data('alt-src');
+        $(this).data("alt-src",tag.attr('src'));
+        tag.attr('src', altSource);
+      })
+    })
+    </script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+    <img class="case" data-alt-src="cat0.png" src="ninja0.png" alt=""/>
+    <img class="case" data-alt-src="cat1.png" src="ninja1.png" alt=""/>
+    <img class="case" data-alt-src="cat2.png" src="ninja2.png" alt=""/>
+    <img class="case" data-alt-src="cat3.png" src="ninja3.png" alt=""/>
+    <img class="case" data-alt-src="cat4.png" src="ninja4.png" alt=""/>
+  </div>
+  </body>
+</html>

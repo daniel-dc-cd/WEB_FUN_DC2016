@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>disappearing ninja</title>
+    <link rel="stylesheet" href="ninja.css">
+    <script type="text/javascript" src = "https://code.jquery.com/jquery-2.x-git.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+          $('img').click(function(){
+              $(this).hide();
+          });
+          $('#reset').click(function(){
+            $('img').show();
+          });
+      });
+
+    </script>
+
+  </head>
+  <body>
+<div>
+
+  <h1> Disappearing Ninja<h1>
+  <img id = "imgone" src="img1.png" alt="imageone">
+  <img id = "imgtwo" src="img2.png" alt="imageone">
+  <img id = "imgthree" src="img3.png" alt="imageone">
+  <img id = "imgfour" src="img4.png" alt="imageone">
+  <img id = "imgfive" src="img1.png" alt="imageone">
+  <img id = "imgsix" src="img2.png" alt="imageone">
+  <img id = "imgsix" src="img3.png" alt="imageone">
+  <img id = "imgsix" src="img4.png" alt="imageone">
+
+</div>
+<button type="reset" name="button" id = "reset">GET all the ninja's</button>
+
+  </body>
+</html>

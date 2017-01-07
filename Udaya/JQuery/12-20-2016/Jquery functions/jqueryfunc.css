@@ -1,0 +1,178 @@
+body{
+  width:900px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 950px;
+  background-color: aliceblue;
+
+}
+h3{
+  text-align:  center;
+  color: orange;
+  font-size: 45px;
+  font-weight: normal;
+  font-family: fantasy;
+}
+button#hide{
+    position: relative;
+    height: 30px;
+    font-size: medium;
+    left: 350px;
+    background-color: aquamarine;
+    color: blue;
+
+}
+button#show{
+    position: relative;
+    height: 30px;
+    font-size: medium;
+    left: 350px;
+    background-color: aquamarine;
+    color: blue;
+
+}
+#ptwo{
+  display: none;
+}
+div#two{
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+#imageone{
+  width:940px;
+  height:110px;
+  margin-top: 10px;
+    margin-bottom: 10px;
+}
+#slidetoggle{
+  position: relative;
+  height: 30px;
+  font-size: medium;
+  left: 350px;
+  background-color: aquamarine;
+  color: blue;
+}
+#toggle{
+  position: relative;
+  height: 30px;
+  font-size: medium;
+  left: 350px;
+  background-color: aquamarine;
+  color: blue;
+}
+#slideup{
+  position: relative;
+  height: 30px;
+  font-size: medium;
+  left: 350px;
+  background-color: aquamarine;
+  color: blue;
+}
+#slidedown{
+  position: relative;
+  height: 30px;
+  font-size: medium;
+  left: 350px;
+  background-color: aquamarine;
+  color: blue;
+}
+#imagetwo{
+  width:940px;
+  height:110px;
+  margin-top: 10px;
+    margin-bottom: 10px;
+}
+#fadein{
+  position: relative;
+  height: 30px;
+  font-size: medium;
+  left: 350px;
+  background-color: aquamarine;
+  color: blue;
+}
+#fadeout{
+  position: relative;
+  height: 30px;
+  font-size: medium;
+  left: 350px;
+  background-color: aquamarine;
+  color: blue;
+}
+#addclass{
+  position: relative;
+  height: 30px;
+  font-size: medium;
+  left: 350px;
+  background-color: aquamarine;
+  color: blue;
+}
+.selected{
+  text-decoration: underline;
+  background-color: yellow;
+  text-transform: capitalize;
+
+}
+#before{
+  position: relative;
+  height: 30px;
+  font-size: medium;
+  left: 350px;
+  background-color: aquamarine;
+  color: blue;
+}
+#after{
+  position: relative;
+  height: 30px;
+  font-size: medium;
+  left: 350px;
+  background-color: aquamarine;
+  color: blue;
+}
+#append{
+  position: relative;
+  height: 30px;
+  font-size: medium;
+  left: 350px;
+  background-color: aquamarine;
+  color: blue;
+}
+#html{
+  position: relative;
+  height: 30px;
+  font-size: medium;
+  left: 350px;
+  background-color: aquamarine;
+  color: blue;
+}
+em{
+  color:blue;
+  font-style: italic;
+}
+#attr{
+  position: relative;
+  height: 30px;
+  font-size: medium;
+  left: 350px;
+  background-color: aquamarine;
+  color: blue;
+}
+#eight{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#val{
+  position: relative;
+  height: 30px;
+  font-size: medium;
+  left: 350px;
+  background-color: aquamarine;
+  color: blue;
+}
+#dat{
+  position: relative;
+  height: 30px;
+  font-size: medium;
+  left: 350px;
+  background-color: aquamarine;
+  color: blue;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuery Sample</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script type="text/javascript" src="./jquery-3.1.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('p#click button').click(function(){
+				alert('Warning This is a Virus! Sike. I am here to display the .click function!');
+			})
+			$('#hide button').click(function(){
+				$('#ninja').hide(400);
+			})
+			$('#show button').click(function(){
+				$('#ninja').show(400);
+			})
+			$('#toggle button').click(function(){
+				$('#ninja').toggle(400);
+			})
+			$('#slideup button').click(function(){
+				$('#ninja').slideUp("slow");
+			})
+			$('#slidedown button').click(function(){
+				$('#ninja').slideDown("slow");
+			})
+			$('#slidetoggle button').click(function(){
+				$('#ninja').slideToggle("slow");
+			})
+			$('#fadeout button').click(function(){
+				$('#ninja').fadeOut("slow");
+			})
+			$('#fadein button').click(function(){
+				$('#ninja').fadeIn("slow");
+			})
+			$('#addclass button').click(function(){
+				$('#ninja').addClass("framed");
+			})
+			$('#before').click(function(){
+				$('#BoA').before('<b>ס₪₪₪₪§|(Ξ≥≤≥≤≥≤ΞΞΞΞΞΞΞΞΞΞ></b>');
+			})
+			$('#after').click(function(){
+				$('#BoA').after('<b>龴ↀ◡ↀ龴</b>');
+			})
+			$('#append button').click(function(){
+				$('#append').append('<b>♞▀▄▀▄♝▀▄</b>');
+			})
+			$('#html button').click(function(){
+				$('#html').html('<img src="./before.png">');
+			})
+			$('#attr button').click(function(){
+				$('#ninja').attr({
+					width:"150",
+					height:"150"
+				})
+			})
+			$('#val button').click(function(){
+				$('#val input').val("FREE!");
+			})
+			$('#text button').click(function(){
+				$('#text').text("Like this!");
+			})
+			$('#data button').click(function(){
+				$("#dataholder").data("secret",{ first: "Ninjutsu", last: "Swords"});
+				$("span:first").text( $("#dataholder").data("secret").first);
+				$("span:last").text( $("#dataholder").data("secret").last);
+			})
+		});
+	</script>
+</head>
+<div id="wrapper">
+<body>
+	<h1>The jQuery Ninja!</h1>
+	<p class="framed" id="click">
+		Oh no, I am a bad advertisement, disguised as a download button so that you will <button>CLICK</button> me!
+	</p>
+	<p class="framed" id="hide">
+		Let's turn off the lights so we can find a better place to 
+		<button>HIDE</button>
+	</p>
+	<p class="framed" id="show">
+		Adding some light can make it so that even the sneakiest of foes will <button>SHOW</button>
+	</p>
+	<p class="framed" id="toggle">
+		Let's just <button>TOGGLE</button> this light switch on and off a couple of times to make sure it is in working order!
+	</p>
+	<p class="framed" id="slideup">
+		Anything that can <button>SLIDE UP</button>
+	</p>
+	<p class="framed" id="slidedown">
+		Must also be able to <button>SLIDE DOWN</button>
+	</p>
+	<p class="framed" id="slidetoggle">
+		Ninja's have perfected the long lost technique of the <button>SLIDE TOGGLE</button>. This is why they appear as quickly as they disappear!
+	</p>
+	<p class="framed" id="fadeout">
+		They are masters of the shadows. Allowing them to easily <button>FADE OUT</button>...
+	</p>
+	<p class="framed" id="fadein">
+		...and <button>FADE IN</button> at will!
+	</p>
+	<p class="framed" id="addclass">
+		They can blend into any <button>CLASS</button> or dojo as if they were always there!
+	</p>
+	<p class="framed" id="BoA">
+		Ninja's tools add to their deceptions. They can make things appear right <button id="before">BEFORE</button> or <button id="after">AFTER</button> them.
+	</p>
+	<p class="framed" id="append">
+		They can <button>APPEND</button> other shadows to their side to confuse their enemies!
+	</p>
+	<p class="framed" id="html">
+		The old Switcheroo, brought to you by <button>HTML</button>
+	</p>
+	<p class="framed" id="attr">
+		A ninja can even shrink himself! What?? <button>ATTR</button>
+	</p>
+	<p class="framed" id="val">
+		Through the path of the ninja, one learns the <button>VALUE</button> of things.
+		<input type="text" name="worth">
+	</p>
+	<p class="framed" id="text">
+		<button>TEXT</button> may appear out of thin air!
+	</p>
+	<p class="framed" id="data">
+		A ninja is also a professional at gathering <button>DATA</button>
+	</p>
+	<p class="framed" id="dataholder">
+		<span></span> and <span></span>
+	</p>
+	<div>
+		<img id ="ninja" src="./ninja.jpg" alt="brokenimg" width="250" height="250">
+	</div>
+</body>
+</div>
+</html>

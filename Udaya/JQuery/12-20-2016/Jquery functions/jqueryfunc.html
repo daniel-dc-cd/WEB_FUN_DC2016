@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="jqueryfunc.css">
+    <script type="text/javascript" src = "https://code.jquery.com/jquery-2.x-git.min.js"></script>
+    <script type="text/javascript">
+  $(document).ready(function() {
+    $('#hide').click(function(){
+      $('#pone').hide();
+    });
+    $('#show').click(function(){
+      $('#ptwo').show('slow');
+  });
+  $('#slidetoggle').click(function(){
+    $('#imageone').slideToggle("slow");
+  });
+  $('#toggle').click(function(){
+    $('#imageone').toggle("slow");
+  });
+    $('#slideup').click(function(){
+      $('#imageone').slideUp("slow");
+    });
+    $('#slidedown').click(function(){
+      $('#imageone').slideDown("fast");
+    });
+    $('#fadein').click(function(){
+      $('#imagetwo').fadeIn("slow");
+    });
+    $('#fadeout').click(function(){
+      $('#imagetwo').fadeOut("fast");
+    });
+    $('#addclass').click(function(){
+      $('#pthree').addClass("selected");
+    });
+    $('#before').click(function(){
+      $('#pfour').before("#########Hello world###########");
+    });
+    $('#after').click(function(){
+      $('#pfive').after("*************I was written by after method**********");
+    });
+    $('#append').click(function(){
+      $("#psix").append("JQuery is magic");
+    });
+    $('#html').click(function(){
+      $('#html1').html('<i>This is only possible in .html method</i>');
+    });
+    $('#attr').click(function(){
+      var title = $('em').attr('title');
+      $('#attrp').text(title);
+    });
+    $('#val').click(function(){
+      var value = $('input').val();
+      $('#seven1').text(value);
+    });
+    $('#dat').click(function(){
+    $('#nine').data('misstring', {first: "layouts", last: "behaviour"});
+    $('#l1').text($('#nine').data("misstring").first);
+    $('#b1').text($('#nine').data("misstring").last);
+  });
+});
+
+
+    </script>
+    <title></title>
+  </head>
+  <body>
+  <div id = "container">
+      <div id="one">
+        <h3>JQuery Functions</h3>
+        <p id ="pone">Lorem ipsum dolor sit amet, ad choro omnium animal cum. Ne est minim clita, aeque mundi errem qui ea. Ut ridens legimus has. Pro illum probatus an, te sale eripuit pertinax nam. Te vel integre antiopam persecuti, no his civibus antiopam partiendo.</p>
+        <p id ="ptwo">Lorem ipsum dolor sit amet, ad choro omnium animal cum. Ne est minim clita, aeque mundi errem qui ea. Ut ridens legimus has. Pro illum probatus an, te sale eripuit pertinax nam. Te vel integre antiopam persecuti, no his civibus antiopam partiendo.</p>
+        <button type="button" name="button" id="hide">Hide Paragraph</button>
+        <button type="button" name="button" id="show">Show Paragraph</button>
+      </div>
+      <div id = "two">
+        <img id = "imageone" src="img1.jpg" alt="image"></img>
+        <button type="button" name="button" id="slidetoggle">Slide Toggle</button>
+        <button type="button" name="button" id="toggle">Toggle</button>
+        <button type="button" name="button" id="slideup">Slide Up</button>
+        <button type="button" name="button" id="slidedown">Slide Down</button>
+      </div>
+
+      <div id = "three">
+        <img id = "imagetwo" src="img2.jpg" alt="image"></img>
+        <button type="button" name="button" id="fadein">Fade In</button>
+        <button type="button" name="button" id="fadeout">Fade Out</button>
+
+      </div>
+
+      <div id = "four">
+        <p id ="pthree">Lorem ipsum dolor sit amet, ad choro omnium animal cum. Ne est minim clita, aeque mundi errem qui ea. Ut ridens legimus has. Pro illum probatus an, te sale eripuit pertinax nam. Te vel integre antiopam persecuti, no his civibus antiopam partiendo.</p>
+        <button type="button" name="button" id="addclass">Add Class</button>
+      </div>
+
+      <div id = "five">
+        <p><span id ="pfour">Lorem ipsum dolor sit amet, </span>ad choro omnium animal cum. Ne est minim clita, aeque mundi errem qui ea.<span id ="pfive"> Ut ridens legimus has.</span> Pro illum probatus an, te sale<em title = "mainly for animating purposes"> eripuit pertinax nam.<em> Te vel integre antiopam persecuti, no his civibus antiopam partiendo.</p>
+           Importance of JQuery: <p id ="attrp"> </p>
+        <button type="button" name="button" id="before">Before</button>
+        <button type="button" name="button" id="after">After</button>
+        <button type="button" name="button" id="attr">Attribute</button>
+
+      </div>
+
+      <div id = "six">
+        <p id ="psix"> Hello world:</p>
+        <div id ="html1"></div>
+        <button type="button" name="button" id="append">Append</button>
+        <button type="button" name="button" id="html">HTML</button>
+      </div>
+
+      <div id ="eight">
+        <input type ="text" value = "JQuery is cool">
+        <button type="button" name="button" id = "val">Value</button>
+        <p id ="seven1"> </p>
+      </div>
+      <div id ="nine">
+        <p> CSS and HTML are used for defining <span id ="l1"> </span> where as JS is for determining the <span id ="b1"> </span> of webpages.</p>
+        <button type="button" name="button" id = "dat">DATA</button>
+
+
+
+      </div>
+
+
+</div>
+  </body>
+</html>

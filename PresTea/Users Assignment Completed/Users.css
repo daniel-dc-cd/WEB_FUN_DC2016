@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+table th{
+    border: 2px solid black;
+}
+
+h1{
+    border-bottom: 5px solid black;
+    width: 400px;
+    padding: 5px;
+}
+form input{
+    padding-top: 15px;
+    /* padding-left: 10px; */
+}

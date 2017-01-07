@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Card</title>
+    <link rel="stylesheet" type="text/css" href="contact_card.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script>
+
+      $( document ).ready(function() {
+        $( '#form1' ).submit(function() {
+          var firstname = $( '#name1' ).val();
+          var lastname =  $( '#name2').val();
+          var description = $('#form1 textarea').val();
+          $( '#right' ).append( '<div class="namecard"><h4>'  +firstname + " " + lastname + '</h4><p>Click for description!</p><p class="invis">' + description + '</p></div>' );
+
+          return false;
+        });
+
+        $( '#right').on( 'click', '.namecard', function() {
+          $( this ).children().hide();
+          $( this ).children( '.invis' ).show();
+        });
+
+
+      });
+
+    </script>
+
+  </head>
+
+  <body>
+    <div id='left'>
+      <form id=form1 action='somewhere.php' method='post'>
+        First Name <input type='text' name='first_name' id="name1">
+        Last Name <input type='text' name='last_name' id="name2">
+        <br>
+        <h3>Description</h3>
+        <textarea rows="4" cols="50" name="comment" form="form1">Enter text here...</textarea>
+        <input type='submit' value='Add User'>
+      </form>
+
+    </div>
+
+    <div id='right'>
+      <div class='namecard'>
+        <h4>Michael Choi</h4>
+        <p>Click for description!</p>
+        <p class='invis'>Founder of Coding Dojo.</p>
+      </div>
+
+      <div class='namecard'>
+        <h4>John Supsupin</h4>
+        <p>Click for description!</p>
+        <p class='invis'>Founder of Coding Dojo.</p>
+      </div>
+
+      <div class='namecard'>
+        <h4>Dexter Clark</h4>
+        <p>Click for description!</p>
+        <p class='invis'>Founder of Coding Dojo.</p>
+      </div>
+    </div>
+
+
+  </body>
+  </html>

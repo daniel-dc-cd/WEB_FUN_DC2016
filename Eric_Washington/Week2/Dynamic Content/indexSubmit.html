@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Submitting a Form(JQuery)</title>
+    <script type="text/javascript" <script type="text/javascript"src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#form1").submit(function(){
+          console.log($this.serialize());
+          return false
+        });
+
+        $('btn').click(function(){
+          ('#form1').submit();
+        })
+
+      });
+    </script>
+  </head>
+  <body>
+    <form id="form1" action="process.php" method="post">
+      First Name<input type="text" name="first_name">
+      Last Name<input type="text" name="last_name">
+      Email<input type="text" name="email">
+      <input type='submit' value ='submit'>
+    </form>
+
+    <button class="btn">JQuery Submit Button</button>
+  </body>
+</html>
