@@ -1,0 +1,67 @@
+/*Ekapob Ukritnukun*/
+/*ThaiGQ@gmail.com*/
+
+*
+{
+    margin: 0px;
+    padding: 0px
+}
+    #wrapper
+    {
+        /*outline: 1px solid red;*/
+        height: 610px;
+        width: 668px;
+        background-color: #d4d2ae;
+        margin: 0px 11px;
+        padding: 20px 10px;
+    }
+        #header
+        {
+            /*outline: 1px solid red;*/
+            height: 60px;
+            width: 668px;
+            text-align: center;
+            padding-top: 10px;
+            padding-left: 1px;
+        }
+            #header img
+            {
+                background-color: white;
+                vertical-align: bottom;
+            }
+            #header h1
+            {
+                /*outline: 1px solid red;*/
+                display: inline-block;
+                vertical-align: bottom;
+                position: relative;
+                top: 7px;
+                margin-right: 1px;
+            }
+        #main_content
+        {
+            /*outline: 1px solid red;*/
+            height: 520px;
+            width: 647px;
+            padding: 11px;
+        }
+            .columns_odd
+            {
+                outline: 3px solid black;
+                border: 10px solid #82b4ee;
+                background-color: white;
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 5px;
+                margin-bottom: 10px;
+            }
+            .columns_even
+            {
+                outline: 3px solid black;
+                border: 10px solid #f36870;
+                background-color: #f36870;
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 5px;
+                margin-bottom: 10px;
+            }

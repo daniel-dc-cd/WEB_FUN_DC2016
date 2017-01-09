@@ -1,0 +1,193 @@
+/*Ekapob Ukritnukun*/
+/*ThaiGQ@gmail.com*/
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    padding: 5px 10px;
+}
+    #wrapper
+    {
+        /*outline: 1px solid red;*/
+        height: 800px;
+        width: 900px;
+        background-color: #f2f5f2;
+    }
+
+    #header
+    {
+        /*outline: 1px solid red;*/
+        height: 80px;
+        width: 900;
+    }
+        #header img
+        {
+            /*outline: 1px solid red;*/
+            margin-top: 1px;
+            margin-left: 8px;
+        }
+        #header h3
+        {
+            /*outline: 1px solid red;*/
+            display: inline-block;
+            vertical-align: top;
+            position: relative;
+            top: 40px;
+            left: 370px;
+        }
+    #navigation
+    {
+        outline: 1px solid black;
+        font-size: 12px;
+        font-weight: bold;
+    }
+        #navigation ul
+        {
+            font-size: 0px;
+        }
+        #navigation li
+        {
+            /*outline: 1px solid red;*/
+            display: inline-block;
+            vertical-align: top;
+            font-size: 12px;
+            border: 1px solid black;
+            padding: 7px 37px;
+        }
+    #main_content
+    {
+        /*outline: 1px solid red;*/
+        height: 659px;
+        background: radial-gradient(circle, #735a5f, #565174, #393147);
+        padding: 16px 15px;
+    }
+        #database_overview
+        {
+            /*outline: 1px solid red;*/
+            height: 260px;
+        }
+            #database_montage
+            {
+                border: 7px solid #c0c0c0;
+            }
+            #database_description
+            {
+                /*outline: 1px solid red;*/
+                width: 375px;
+                height: 260px;
+                display: inline-block;
+                vertical-align: top;
+                margin-left: 15px;
+            }
+            #database_description h4
+            {
+                /*outline: 1px solid red;*/
+                height: 18px;
+                width: 361px;
+                background: linear-gradient(#c4c0c5, #918e9b, #c4c0c5);
+                display: inline-block;
+                vertical-align: top;
+                padding: 7px;
+            }
+            #database_description h5
+            {
+                /*outline: 1px solid red;*/
+                height: 16px;
+                width: 361px;
+                background: linear-gradient(to right, #f2fcfe, #dacbd9);
+                display: inline-block;
+                vertical-align: top;
+                padding: 7px;
+            }
+            #database_description p
+            {
+                /*outline: 1px solid red;*/
+                height: 162px;
+                width: 361px;
+                background: linear-gradient(to right, #f2fcfe, #dacbd9);
+                display: inline-block;
+                font-size: 11px;
+                vertical-align: top;
+                padding: 7px;
+            }
+            #stack
+            {
+                /*outline: 1px solid red;*/
+                height: 12px;
+                width: 120px;
+                color: #576791;
+                position: relative;
+                top: 6px;
+                left: 252px;
+            }
+                #stack img
+                {
+                    /*outline: 1px solid red;*/
+                    vertical-align: top;
+                }
+                #stack h6
+                {
+                    /*outline: 1px solid red;*/
+                    height: 12px;
+                    width: 100px;
+                    display: inline-block;
+                    font-size: 10px;
+                    vertical-align: top;
+                }
+        #database_qualities
+        {
+            /*outline: 1px solid red;*/
+            height: 400px;
+            display: inline-block;
+        }
+            .subcontents
+            {
+                /*outline: 1px solid red;*/
+                height: 400px;
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 8px;
+                padding: 4px 1px;
+            }
+                .subcontents h4
+                {
+                    /*outline: 1px solid red;*/
+                    height: 18px;
+                    width: 189px;
+                    background: linear-gradient(#c4c0c5, #918e9b, #c4c0c5);
+                    vertical-align: top;
+                    font-size: 14px;
+                    padding: 7px;
+                }
+                .subcontents img
+                {
+                    /*outline: 1px solid red;*/
+                    vertical-align: top;
+                }
+                .subcontents p
+                {
+                    /*outline: 1px solid red;*/
+                    height: 223px;
+                    width: 189px;
+                    background: linear-gradient(to bottom, #99a8c2, #fdfcfe);
+                    font-size: 12px;
+                    padding: 12px 7px;
+                }
+                .subcontents button
+                {
+                    position: relative;
+                    background-color: #5c729c;
+                    color: white;
+                    font-size: 9px;
+                    font-weight: bold;
+                    border: 3px solid black;
+                    border-radius: 5px;
+                    bottom: 40px;
+                    left: 105px;
+                    padding: 5px 9px;
+                }
